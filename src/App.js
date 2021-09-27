@@ -6,6 +6,7 @@ import {
 }from "react-router-dom";
 import Aboutus from "./pages/Aboutus/Aboutus";
 import Articles from "./pages/Articles/Articles";
+import ArticlesList from "./pages/ArticlesList/ArticlesList";
 import Gallery from "./pages/Gallery/Gallery";
 import Main from "./pages/Home/Home";
 function App(){
@@ -13,7 +14,7 @@ function App(){
        <Router>
          <Switch>
            <Route exact path='/'>
-            <Main />
+            <Home />
            </Route>
            <Route path='/articles'>
             <Articles />
@@ -23,6 +24,9 @@ function App(){
            </Route>
            <Route path='/gallery'>
             <Gallery />
+           </Route>
+           <Route path='/articleslist' >
+             <ArticlesList />
            </Route>
          </Switch>
        </Router>
