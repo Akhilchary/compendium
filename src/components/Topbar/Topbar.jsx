@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
-function Header(){
+function Topbar(){
     return(
         <>
         <div  style={{display:"inline-block"}}>
@@ -35,4 +35,4 @@ function Header(){
 
     );
 }
-export default Header;
+export default Topbar;

@@ -4,10 +4,10 @@ import {
   Switch,
   Route
 }from "react-router-dom";
-import Aboutus from "./components/Aboutus";
-import Articles from "./components/Articles";
-import Gallery from "./components/Gallery";
-import Main from "./components/Main";
+import Aboutus from "./pages/Aboutus/Aboutus";
+import Articles from "./pages/Articles/Articles";
+import Gallery from "./pages/Gallery/Gallery";
+import Main from "./pages/Home/Home";
 function App(){
     return (
        <Router>
