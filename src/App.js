@@ -5,10 +5,12 @@ import {
   Route
 }from "react-router-dom";
 import Aboutus from "./pages/Aboutus/Aboutus";
-import Articles from "./pages/Articles/Articles";
+// import Articles from "./pages/Articles/Articles";
 import ArticlesList from "./pages/ArticlesList/ArticlesList";
 import Gallery from "./pages/Gallery/Gallery";
-import Main from "./pages/Home/Home";
+import Home from "./pages/Home/Home";
+import ArticleBlock from "./pages/ArticlesList/ArticleBlock";
+
 function App(){
     return (
        <Router>
@@ -17,7 +19,7 @@ function App(){
             <Home />
            </Route>
            <Route path='/articles'>
-            <Articles />
+            <ArticleBlock />
            </Route>
            <Route path='/aboutus'>
             <Aboutus />
@@ -26,7 +28,7 @@ function App(){
             <Gallery />
            </Route>
            <Route path='/articleslist' >
-             <ArticlesList />
+             <ArticleBlock />
            </Route>
          </Switch>
        </Router>
