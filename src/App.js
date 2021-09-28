@@ -10,7 +10,8 @@ import ArticlesList from "./pages/ArticlesList/ArticlesList";
 import Gallery from "./pages/Gallery/Gallery";
 import Home from "./pages/Home/Home";
 import ArticleBlock from "./pages/ArticlesList/ArticleBlock";
-
+{/* <Route path='/articles'>
+            <ArticleBlock />  </Route>*/}
 function App(){
     return (
        <Router>
@@ -18,9 +19,8 @@ function App(){
            <Route exact path='/'>
             <Home />
            </Route>
-           <Route path='/articles'>
-            <ArticleBlock />
-           </Route>
+           
+          
            <Route path='/aboutus'>
             <Aboutus />
            </Route>

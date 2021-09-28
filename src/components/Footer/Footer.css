@@ -3,10 +3,12 @@
     height: 60vh;
      */background: #0E0E0E;
     position: absolute;
+    left: 0px;
+    bottom: 0;
     width: 100vw;
     height: 466px;
-    left: 0px;
-    /* top: 3016px; */
+    margin-top: 5px;
+    top: 200vh;
 }
 
 .soc-div{
