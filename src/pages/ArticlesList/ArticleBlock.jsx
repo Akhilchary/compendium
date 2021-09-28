@@ -9,7 +9,13 @@ const ArticleBlock = () => {
     return (
         <>
         <Topbar />
+        <div className="background-1"></div>
+        <div  className="background-1 background-2" style={{background: '#632929'}}></div>
+        <div className="article-name">
+            <p>Articles.</p>
+        </div>
         <div className="container" >
+            
             <ArticlesList articles={articlesData} />
         </div>
 

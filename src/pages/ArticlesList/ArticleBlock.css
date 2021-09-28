@@ -1,7 +1,40 @@
-.container{
-    width: 341px;
-    height: 401px;
-    position: absolute;
-    
 
+.container{
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 100px;
+}
+
+.article-block{
+    margin: 10px;
+}
+
+.article-name{
+    align-items: center;
+    margin-left: 45vw;
+    margin-top: 3vw;
+}
+
+.article-name>p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.background-1{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    top: 150px;
+
+    background: #CB6565;
+    }
+.background-2{
+    top: 123vh;
 }

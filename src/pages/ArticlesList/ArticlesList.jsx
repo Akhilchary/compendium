@@ -2,20 +2,22 @@ import React from 'react'
 // import ArticleBlock from './ArticleBlock';
 // import articlesData from '../articlesdata';
 import "./ArticlesList.css";
-
+import arrow from "../../images/arrow.svg"
 const ArticlesList = ({articles}) => {
     return (
         <>
             {articles.map((article,index)=>(
-                <div key={index}  >
-                    <h2>{article.title}</h2>
-                    <div><img className="image"  src={article.pic} /></div>
+                <div className="article-block" key={index}  >
                     
-                    <p>{article.content }</p>
-                    
+                    <img className="image"  src={article.pic} />
+
+                    <div className="articlediv-title" >
+                        <p className="article-title">{article.title}</p>
+                    </div>
+                    <img className="arr" src={arrow} alt=""  />
                 <div>
 
-                </div>
+                </div><br />
                  </div>
                 
                 

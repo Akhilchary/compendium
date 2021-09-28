@@ -7,7 +7,6 @@ import logo from "../../images/logo.png";
 function Topbar(){
     return(
         <>
-        
             <div className="nav-bar" >
             <div >
                 <img  className="menu-icon"  src={menuIcon} alt="" />

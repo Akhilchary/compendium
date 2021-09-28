@@ -23,6 +23,30 @@ const articlesData=[
         also showcase yourself. Dance has been with us for thousands of years. It has a huge impact on cultures and makes
          them all the more diverse. One small group of students have tried their hands on spreading this fever in our college too. "`,
          pic:"https://iarethecompendium.files.wordpress.com/2021/05/2.png"
+    },
+    {
+        title:"Move it like you mean it",
+        content:`"“Dance is an art,which brings all the artists together with creativity and style”
+        A form of expression through art. A devine thrill to move one’s soul and body. A creative way to exercise and 
+        also showcase yourself. Dance has been with us for thousands of years. It has a huge impact on cultures and makes
+         them all the more diverse. One small group of students have tried their hands on spreading this fever in our college too. "`,
+         pic:"https://iarethecompendium.files.wordpress.com/2021/05/2.png"
+    },
+    {
+        title:"Move it like you mean it",
+        content:`"“Dance is an art,which brings all the artists together with creativity and style”
+        A form of expression through art. A devine thrill to move one’s soul and body. A creative way to exercise and 
+        also showcase yourself. Dance has been with us for thousands of years. It has a huge impact on cultures and makes
+         them all the more diverse. One small group of students have tried their hands on spreading this fever in our college too. "`,
+         pic:"https://iarethecompendium.files.wordpress.com/2021/05/2.png"
+    },
+    {
+        title:"Move it like you mean it",
+        content:`"“Dance is an art,which brings all the artists together with creativity and style”
+        A form of expression through art. A devine thrill to move one’s soul and body. A creative way to exercise and 
+        also showcase yourself. Dance has been with us for thousands of years. It has a huge impact on cultures and makes
+         them all the more diverse. One small group of students have tried their hands on spreading this fever in our college too. "`,
+         pic:"https://iarethecompendium.files.wordpress.com/2021/05/2.png"
     }
 ];
 
