@@ -15,20 +15,23 @@ function App(){
     return (
        <Router>
          <Switch>
+         
            <Route exact path='/'>
             <Home />
            </Route>
-           
           
            <Route path='/aboutus'>
             <Aboutus />
            </Route>
+
            <Route path='/gallery'>
             <Gallery />
            </Route>
+
            <Route path='/articleslist' >
              <ArticleBlock />
            </Route>
+
          </Switch>
        </Router>
     );
