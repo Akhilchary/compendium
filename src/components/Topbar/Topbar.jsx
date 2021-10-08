@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import "./Topbar.css";
 import menuIcon from "../../images/menuIcon.svg";
 import searchIcon from "../../images/searchIcon.svg";
@@ -10,7 +10,7 @@ function Topbar(){
             <div className="nav-bar" >
             <div >
                 <img  className="menu-icon"  src={menuIcon} alt="" />
-                <img className="search-icon" src={searchIcon} />
+                <img className="search-icon" src={searchIcon} alt="" />
             </div>
             <div className="name-comp">
                 <p className="name-p" >The Compendium</p>
