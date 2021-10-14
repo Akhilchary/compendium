@@ -10,6 +10,7 @@ import ArticlesList from "./pages/ArticlesList/ArticlesList";
 import Gallery from "./pages/Gallery/Gallery";
 import Home from "./pages/Home/Home";
 import ArticleBlock from "./pages/ArticlesList/ArticleBlock";
+import Placements from "./pages/placements/placements"
 
 function App(){
     return (
@@ -19,7 +20,6 @@ function App(){
            <Route exact path='/'>
             <Home />
            </Route>
-          
            <Route path='/aboutus'>
             <Aboutus />
            </Route>
@@ -27,7 +27,9 @@ function App(){
            <Route path='/gallery'>
             <Gallery />
            </Route>
-
+           <Route path='/placements' >
+             <Placements />
+           </Route>
            <Route path='/articleslist' >
              <ArticleBlock />
            </Route>
