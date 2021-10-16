@@ -98,7 +98,7 @@ const AddArticle = () => {
         
             <div className="input-group date">
                 <label htmlFor="img">image name:</label>
-                <input className="form-control" type="file" name="img" id="img"  onChange={ changeImg} />
+                <input className="form-control" type="file" name="img" id="img" />
             </div>
 
             <button className="btn btn-lg btn-primary" type="submit">submit</button>
