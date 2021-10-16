@@ -1,11 +1,27 @@
 import React from 'react';
+import { useState,useEffect } from 'react';
 import ArticlesList from './ArticlesList';
-import articlesData from '../articlesdata';
 import "./ArticleBlock.css";
 import Topbar from '../../components/Topbar/Topbar';
 import Footer from '../../components/Footer/Footer';
+import{useLocation} from "react-router";
+import axios from "axios";
+
 
 const ArticleBlock = () => {
+    const [posts,setPosts]=useState([]);
+    const location = useLocation();
+    console.log(location);
+    useEffect(()=>{
+        const fetchArts= async ()=>{
+            const res =  await axios.get("/posts"+location.search);
+            setPosts(res.data);
+            console.log(res.data," resdata");
+        }
+        
+        
+    fetchArts();
+    },[])
     return (
         <>
         <Topbar />
@@ -15,8 +31,7 @@ const ArticleBlock = () => {
             <p>Articles.</p>
         </div>
         <div className="container" >
-            
-            <ArticlesList articles={articlesData} />
+            <ArticlesList articles={posts} />
         </div>
 
         <Footer />

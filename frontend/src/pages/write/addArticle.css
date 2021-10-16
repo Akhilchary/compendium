@@ -1,0 +1,69 @@
+.title{
+    width: 50rem;
+    height: 5rem;
+}
+
+.title>label{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+input{
+    outline-width: 10px solid black;
+}
+
+.form{
+    display: block;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.content{
+    width: 70rem;
+    height: 50rem;
+}
+
+.content>label{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.wb{
+    margin-top: 20px;
+    width: 25rem;
+}
+
+.wb>label{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.date{
+    margin-top: 20px;
+    width: 25rem;
+    height: 1rem;
+}
+
+.date>label{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+   
+}
+
+.date>label{
+    height: 1rem;
+}
+
+.btn{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
