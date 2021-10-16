@@ -5,7 +5,7 @@ import {
   Route
 }from "react-router-dom";
 import Aboutus from "./pages/Aboutus/Aboutus";
-import Gallery from "./pages/Gallery/Gallery";
+import Slider from "./pages/Gallery/Slider";
 import Home from "./pages/Home/Home";
 import ArticleBlock from "./pages/ArticlesList/ArticleBlock";
 import Article from "./pages/Articles/Article";
@@ -13,35 +13,36 @@ import AddArticle from "./pages/write/AddArticle";
 
 function App(){
     return (
-       <Router>
-         <Switch>
+      <Slider />
+      //  <Router>
+      //    <Switch>
          
-           <Route exact path='/'>
-            <Home />
-           </Route>
+      //      <Route exact path='/'>
+      //       <Home />
+      //      </Route>
           
-           <Route path='/aboutus'>
-            <Aboutus />
-           </Route>
+      //      <Route path='/aboutus'>
+      //       <Aboutus />
+      //      </Route>
 
-           <Route path='/gallery'>
-            <Gallery />
-           </Route>
+      //      <Route path='/gallery'>
+      //       <Gallery />
+      //      </Route>
 
-           <Route path='/articleslist' >
-             <ArticleBlock />
-           </Route>
+      //      <Route path='/articleslist' >
+      //        <ArticleBlock />
+      //      </Route>
 
-           <Route path="/article/:id" >
-              <Article />
-           </Route>
+      //      <Route path="/article/:id" >
+      //         <Article />
+      //      </Route>
 
-            <Route path="/write">
-              <AddArticle />
-            </Route>
+      //       <Route path="/write">
+      //         <AddArticle />
+      //       </Route>
 
-         </Switch>
-       </Router>
+      //    </Switch>
+      //  </Router>
     );
 }
 
