@@ -10,11 +10,9 @@ import axios from "axios";
 
 const ArticleBlock = () => {
     const [posts,setPosts]=useState([]);
-    const location = useLocation();
-    console.log(location);
     useEffect(()=>{
         const fetchArts= async ()=>{
-            const res =  await axios.get("/posts"+location.search);
+            const res =  await axios.get("/posts");
             setPosts(res.data);
             console.log(res.data," resdata");
         }

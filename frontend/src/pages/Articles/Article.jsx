@@ -22,6 +22,7 @@ function Article(){
         <>
         <Header />
         <div className="con">
+        <img src={art.img} alt="" srcset="" />
         <h1>{ art.title }</h1>
         <h1>{ art.content }</h1>
         <h1>{ art.writtenBy }</h1>
