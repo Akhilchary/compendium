@@ -14,35 +14,36 @@ import AddArticle from "./pages/write/AddArticle";
 function App(){
     return (
       
-       <Router>
-         <Switch>
+        <Router>
+          <Switch>
          
-           <Route exact path='/'>
-            <Home />
-           </Route>
+            <Route exact path='/'>
+             <Home />
+            </Route>
           
-           <Route path='/aboutus'>
-            <Aboutus />
-           </Route>
-
-           <Route path='/gallery'>
-            <Slider />
-           </Route>
-
-           <Route path='/articleslist' >
-             <ArticleBlock />
-           </Route>
-
-           <Route path="/article/:id" >
-              <Article />
-           </Route>
-
-            <Route path="/write">
-              <AddArticle />
+            <Route path='/aboutus'>
+             <Aboutus />
             </Route>
 
-         </Switch>
-       </Router>
+            <Route path='/gallery'>
+            <Slider />
+            </Route>
+
+            <Route path='/articleslist' >
+              <ArticleBlock />
+            </Route>
+
+            <Route path="/article/:id" >
+               <Article />
+            </Route>
+
+             <Route path="/write">
+               <AddArticle />
+             </Route>
+             
+
+          </Switch>
+        </Router>
     );
 }
 

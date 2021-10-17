@@ -9,9 +9,11 @@ const AddArticle = () => {
     const [wb,setWb]=useState(""); 
     const [date,setDate]=useState("");
     const [img,setImg]=useState("");
+
     const HandleClick=async(e)=>{
         
         const send=async()=>{
+           //console.log("imagsdsd",img);
             const res=await axios.post("/posts",{
                 "title":title,
                 "content":con,
@@ -19,40 +21,27 @@ const AddArticle = () => {
                 "dateAdded":date,
                 "img":img
             });
-            console.log(res,"response");
+            console.log("response",res);
         }
         send();
         alert("your article is added ");
         e.preventDefault();
     }
-    // const getBase64 = (file) => new Promise(function (resolve, reject) {
-    //     let reader = new FileReader();
-    //     reader.readAsDataURL(file);
-    //     reader.onload = () => resolve(reader.result)
-    //     reader.onerror = (error) => reject('Error: ', error);
-    // })
-    // const changeImg = (e) => {
-    //     const file = e.target.files[0];
-    //     console.log(file);
-    //     let encoded;
-    //     getBase64(file)
-    //       .then((result) => {
-    //         encoded = result;
-    //        })
-    //       .catch(e => console.log(e))
-    //       console.log(encoded);
-    //     setImg(encoded);
-    // }
-    const cImg=()=>{
+   
+    const cImg=(im)=>{
         let bs64='';
-        
+        getBase64(im,(result)=>{
+            bs64=result;
+        })
+       
     }
     function getBase64(file, cb) {
         let reader = new FileReader();
         reader.readAsDataURL(file);
         reader.onload = function () {
             cb(reader.result)
-            console.log(reader.result);
+            setImg(reader.result);
+            //console.log("reader result",reader.result);
         };
         reader.onerror = function (error) {
             console.log('Error: ', error);
@@ -98,7 +87,7 @@ const AddArticle = () => {
         
             <div className="input-group date">
                 <label htmlFor="img">image name:</label>
-                <input className="form-control" type="file" name="img" id="img" />
+                <input className="form-control" type="file" name="img" id="img" onChange={e=>cImg(e.target.files[0]) } />
             </div>
 
             <button className="btn btn-lg btn-primary" type="submit">submit</button>

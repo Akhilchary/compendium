@@ -17,6 +17,10 @@ const PostSchema=new mongoose.Schema({
     dateAdded:{
         type:String,
         required:true
+    },
+    img:{
+        type:String,
+        required:true
     }
 
 
