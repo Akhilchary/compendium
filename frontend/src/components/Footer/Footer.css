@@ -1,27 +1,26 @@
 .footer{
     /* width: 100vw;
-    height: 60vh;
-     */background: #0E0E0E;
-    position:absolute;
+    height: 60vh;*/
+    background: #0E0E0E;
+    position: absolute;
     top: 510%;
     left: 0%;
     bottom: 0%;
     width: 100%;
-    height: 70%;
+    height: 60%;
 }
 
 .soc-div{
-    position:absolute;
-
+    position:relative;
     width: 84px;
     height: 26px;
 }
 .soc-p{
     
-    position: absolute;
+    position: relative;
     top: 10vh;
-    left: 20vw;
-    font-family: Karla;
+    left: 15vw;
+    font-family: rubik;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -30,15 +29,15 @@
 }
 .linkdin-ic{
     position: absolute;
-    top: 24vh;
-    left: 20vw;
+    top: 22vh;
+    left: 16vw;
     width: 30px;
     height: 30px;
 }
 .insta-ic{
     position: absolute;
-    top: 25vh;
-    left: 24vw;
+    top: 22.8vh;
+    left: 21vw;
     width: 27px;
     height: 25px;    
 }
@@ -46,17 +45,17 @@
 .footer-nav{
     color: white;
     position: absolute;
-    left: 70vw;
+    left: 60vw;
     top: 6vh;
 }
 
 .footer-nav>h3{
-    font-family: Karla;
+    font-family: rubik;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 30px;
-
+    margin-left: 20px;
     color: #FFFFF7;
 }
 
@@ -71,7 +70,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 15px;
 
     color: #FFFFF7;
 }
@@ -84,6 +83,6 @@
     line-height: 17px;
     color: #FFFFF7;
     position: absolute;
-    top: 60vh;
+    top: 45vh;
     left: 10vw;
 }
