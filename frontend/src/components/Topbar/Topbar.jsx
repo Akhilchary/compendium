@@ -7,25 +7,20 @@ import logo from "../../images/logo.png";
 function Topbar(){
     return(
         <>
-            <div className="nav-bar" >
-            <div >
-                <img  className="menu-icon"  src={menuIcon} alt="" />
-                <img className="search-icon" src={searchIcon} alt="" />
+            <div className="nav-bar">
+                <div className="name-comp">
+                    <h2 className="name">The Compendium</h2>
+                </div>
+                <div className="menu-items">
+                    <p>Home</p>
+                    <p>About Us</p>
+                    <p>Articles</p>
+                    <p>Gallery</p>
+                    <p>Spotlight</p>
+                    <p>Placements</p>
+                    <img className="search-icon" src={searchIcon} alt="" />
+                </div>
             </div>
-            <div className="name-comp">
-                <p className="name-p" >The Compendium</p>
-            </div>
-            <div className="logo">
-                <img src={logo} alt="" />
-            </div>
-
-            </div>
-
-
-
-
-
-      
         </>
 
     );
