@@ -2,19 +2,18 @@
     /* width: 100vw;
     height: 60vh;*/
     background: #0E0E0E;
-    position: absolute;
+    /* position: absolute;
     top: 510%;
     left: 0%;
-    bottom: 0%;
+    bottom: 0%; */
     width: 100%;
-    height: 60%;
+    height: 55%;
+    margin-top: 50px;
+    position: relative;
+   
 }
 
-.soc-div{
-    position:relative;
-    width: 84px;
-    height: 26px;
-}
+
 .soc-p{
     
     position: relative;

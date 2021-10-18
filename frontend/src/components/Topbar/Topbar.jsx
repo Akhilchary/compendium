@@ -18,7 +18,7 @@ function Topbar(){
                     <p>Gallery</p>
                     <p>Spotlight</p>
                     <p>Placements</p>
-                    <img className="search-icon" src={searchIcon} alt="" />
+                    {/* <img className="search-icon" src={searchIcon} alt="" /> */}
                 </div>
             </div>
         </>

@@ -7,6 +7,7 @@
     position: relative;
     top: 100px;
     left: 100px;
+    margin-bottom: 120px;
 }
 
 .article-block{
@@ -19,7 +20,7 @@
     margin-top: 3vw;
 }
 
-.article-name>p{
+.article-name-p{
     position: relative;
     top: 100px;
     right: 10px;
@@ -42,4 +43,9 @@
     }
 .background-2{
     top: 123vh;
+}
+
+.articleList{
+    position: relative;
+    
 }
