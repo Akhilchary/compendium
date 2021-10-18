@@ -2,6 +2,7 @@ const express = require("express");
 const dotenv = require("dotenv");
 const mongoose=require("mongoose");
 const postRoute=require("./routes/posts");
+const userRoute=require("./routes/user");
 var bodyParser = require('body-parser');
 
 const app=express();
@@ -31,7 +32,7 @@ mongoose.connect(process.env.MONGO_URL,{
 
 
 app.use('/api/posts',postRoute);
-
+app.use('/api/user',userRoute);
 
 app.listen("5000",()=>{
     console.log("server is running on port 5000");
