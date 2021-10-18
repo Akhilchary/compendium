@@ -23,13 +23,16 @@ const ArticleBlock = () => {
     return (
         <>
         <Topbar />
+        <div className="articleList">
+            
+            <p className="article-name-p">Articles.</p>
+
+            <div className="container" >
+                <ArticlesList articles={posts} />
+            </div>
+        </div>
       
-        <div className="article-name">
-            <p>Articles.</p>
-        </div>
-        <div className="container" >
-            <ArticlesList articles={posts} />
-        </div>
+       
 
         <Footer />
         </>

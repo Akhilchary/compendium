@@ -8,6 +8,7 @@ function Footer(){
     return(
         <>
         <div className="footer">
+
             <div className="soc-div">
                 <p className="soc-p">Social.</p>
                 <img className="linkdin-ic" src={linkedIcon} alt="" />
@@ -26,6 +27,7 @@ function Footer(){
             </div>
 
             <p className="copyright">&copy;2021 TheCompendium  </p>
+            
         </div> 
         </>
     );

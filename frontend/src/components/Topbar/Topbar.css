@@ -1,7 +1,7 @@
 .nav-bar{
     background-color: #F7CA02;
     height: 150px;
-
+    width: 100%;
 }
 .name{
     font-family: rubik;
@@ -13,6 +13,7 @@
     position: relative;
     top: 45px;
     margin-left: 150px;
+    width: fit-content;
 }
 
 .menu-items{
@@ -21,13 +22,24 @@
     bottom: 20px;
     left: 50%;
 }
-p{
+.menu-items>p{
     display: inline-block;
     font-family: rubik;
-    font-size: 25px;
     padding: 17px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+
+color: #000000;
 }
 .search-icon{
     width: 25px;
     margin-left: 20px;
+}
+a{
+    text-decoration: none!important;
+    color: #000000;
 }

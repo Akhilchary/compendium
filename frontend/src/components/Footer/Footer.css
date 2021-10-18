@@ -2,19 +2,19 @@
     /* width: 100vw;
     height: 60vh;*/
     background: #0E0E0E;
-    position: absolute;
+    /* position: absolute;
     top: 510%;
     left: 0%;
-    bottom: 0%;
+    bottom: 0%; */
     width: 100%;
-    height: 60%;
+    height: 65%;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 50px;
+   
 }
 
-.soc-div{
-    position:relative;
-    width: 84px;
-    height: 26px;
-}
+
 .soc-p{
     
     position: relative;
@@ -26,6 +26,7 @@
     font-size: 26px;
     line-height: 30px;
     color: #FFFFF7;
+    width: fit-content;
 }
 .linkdin-ic{
     position: absolute;
@@ -65,7 +66,7 @@
     justify-content: space-between;
 }
 .footNav-content>p{
-    margin: 5px 5px 5px 5px;
+    margin: 20px;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -83,6 +84,6 @@
     line-height: 17px;
     color: #FFFFF7;
     position: absolute;
-    top: 45vh;
+    top: 60vh;
     left: 10vw;
 }
