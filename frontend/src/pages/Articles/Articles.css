@@ -4,8 +4,10 @@ body{
 }
 .con{
     position: relative;
-    top: 300px;
-    margin: 0 200px 0 100px;
+    top: 200px;
+    margin: 0 200px 0 150px;
+    
+    
 }
 .title{
     color: #C55AF6;
@@ -18,24 +20,29 @@ body{
     left: 80%;
     bottom: 80px;
 }
+
+.skill-row{
+    word-spacing: 5px;
+    text-align:justify;
+    left: 80%;
+}
+.img{
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-right: 150px;
+    margin-bottom: 100px; 
+     
+}
 .content{
     color: white;
     font-size: 22px;
     line-height: 40px;
+    position: relative;
 }
+
 .writtenby{
     color: white;
-    position: relative;
-    top: 200px;
-    font-size: 25px;
-}
-.skill-row{
-    text-align: left;
-    word-spacing: 5px;
-    text-align:justify;
-}
-.img{
-    float: left;
-    margin-right: 100px;
-    margin-bottom: 100px;
-}
+    position: absolute;
+    bottom: 100px;
+}    
