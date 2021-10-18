@@ -22,11 +22,15 @@ function Article(){
         <>
         <Header />
         <div className="con">
-        <img src={art.img} alt="" srcset="" />
-        <h1>{ art.title }</h1>
-        <h1>{ art.content }</h1>
-        <h1>{ art.writtenBy }</h1>
-        <h1>{ art.dateAdded }</h1></div>
+        <h1 className="title">{ art.title }</h1>
+        <h1 className="date">{ art.dateAdded }</h1>
+        <div className="skill-row">
+            <img className="img" src={art.img} alt="" srcset="" />
+            <h1 className="content">{ art.content }</h1>
+        </div>
+        
+        <h1 className="writtenby">{ art.writtenBy }</h1>
+        </div>
         <Footer />
         </>
     );
