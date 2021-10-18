@@ -30,6 +30,7 @@
     font-size: 46px;
     line-height: 55px;
     color: #ffffff;
+    margin-left: 100px;
 }
 
 .background-1{
@@ -47,5 +48,5 @@
 
 .articleList{
     position: relative;
-    
+   
 }

@@ -25,8 +25,14 @@
 .menu-items>p{
     display: inline-block;
     font-family: rubik;
-    font-size: 25px;
     padding: 17px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+color: #000000;
 }
 .search-icon{
     width: 25px;
