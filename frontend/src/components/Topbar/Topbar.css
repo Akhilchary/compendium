@@ -5,26 +5,26 @@
 }
 .name{
     font-family: rubik;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 500;
     color:#0E0E0E;
 }
 .name-comp{
     position: relative;
-    top: 50px;
-    margin-left: 100px;
+    top: 45px;
+    margin-left: 150px;
 }
 
 .menu-items{
     display: inline-block;
     position: relative;
-    bottom: 10px;
-    left: 45%;
+    bottom: 20px;
+    left: 50%;
 }
 p{
     display: inline-block;
     font-family: rubik;
-    font-size: 20px;
+    font-size: 25px;
     padding: 17px;
 }
 .search-icon{
