@@ -31,10 +31,14 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
+    text-decoration: none;
 
 color: #000000;
 }
 .search-icon{
     width: 25px;
     margin-left: 20px;
+}
+Link{
+    text-decoration: none;
 }
