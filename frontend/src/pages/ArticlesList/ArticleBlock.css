@@ -1,9 +1,11 @@
 
+
 .container{
     display: flex;
     margin: 30px;
     flex-wrap: wrap;
-    position: absolute;
+    position: relative;
+    top: 100px;
     left: 100px;
 }
 
@@ -18,12 +20,15 @@
 }
 
 .article-name>p{
+    position: relative;
+    top: 100px;
+    right: 10px;
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
     font-size: 46px;
     line-height: 55px;
-    color: #000000;
+    color: #ffffff;
 }
 
 .background-1{
@@ -33,7 +38,7 @@
     left: 0px;
     top: 150px;
 
-    background: #CB6565;
+    background: #0E0E0E;
     }
 .background-2{
     top: 123vh;

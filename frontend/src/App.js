@@ -10,6 +10,7 @@ import Home from "./pages/Home/Home";
 import ArticleBlock from "./pages/ArticlesList/ArticleBlock";
 import Article from "./pages/Articles/Article";
 import AddArticle from "./pages/write/AddArticle";
+import Login from "./pages/login/Login";
 
 function App(){
     return (
@@ -39,6 +40,10 @@ function App(){
 
              <Route path="/write">
                <AddArticle />
+             </Route>
+
+             <Route path="/login" >
+               <Login />
              </Route>
              
 
