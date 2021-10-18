@@ -1,51 +1,33 @@
 .nav-bar{
-    position: absolute;
-    width: 100%;
+    background-color: #F7CA02;
     height: 150px;
-    left: 0px;
-    top: 0px;
-    margin: 0%;
-    background: #F7CA02;
-}
-.menu-icon{
-    position: absolute;
-    width: 44px;
-    height: 30px;
-    left: 100px;
-    top: 61px;
 
-    /* border: 2px solid #024196; */
 }
-
-.search-icon{
-    position: absolute;
-    width: 31px;
-height: 30px;
-left: 195px;
-top: 60px;
+.name{
+    font-family: rubik;
+    font-size: 40px;
+    font-weight: 500;
+    color:#0E0E0E;
 }
-
 .name-comp{
-    position: absolute;
-width: 425px;
-height: 51px;
-left: 504px;
-top: 50px;
-}
-.name-p{
-    font-family: Rubik;
-font-style: normal;
-font-weight: 500;
-font-size: 50px;
-line-height: 59px;
-
-color: #F7F7F7;
+    position: relative;
+    top: 50px;
+    margin-left: 100px;
 }
 
-.logo{
-    position: absolute;
-    width: 5.3vw;
-    height: 5.3vw;
-    left: 90vw;
-    top: 4vh;
+.menu-items{
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    left: 45%;
+}
+p{
+    display: inline-block;
+    font-family: rubik;
+    font-size: 20px;
+    padding: 17px;
+}
+.search-icon{
+    width: 25px;
+    margin-left: 20px;
 }
