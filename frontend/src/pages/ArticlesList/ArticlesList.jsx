@@ -39,7 +39,7 @@ const ArticlesList =({articles}) => {
                         
                         <p>{article.dateAdded}</p>
                     </div>
-                    <button className="findoutmore">Find Out More</button>
+                    <Link to={`/article/${article._id}`} ><button className="findoutmore" >Find Out More</button></Link> 
  
                 <div>
 
