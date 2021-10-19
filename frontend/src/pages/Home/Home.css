@@ -9,16 +9,15 @@
 }
 .linked-in{
     position: absolute;
-    border-radius:25%;
-    width: 70%;
-    top: 70%;
-    right: 10%;
+    top: 80%;
+    right: 20%;
+    width: 50%;
+    
 }
 .instagram{
     position: absolute;
-    border-radius:25%;
     width: 50%;
-    top: 80%;
+    top: 90%;
     right: 20%;
 }
 .sitting{
@@ -32,9 +31,8 @@
     width: 560px;
     height: 5%;
     left: 55%;
-    top: 30%;
-
-    font-family: Karla;
+    top: 40%;
+    font-family: rubik;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -47,9 +45,8 @@
     width: 500px;
     height: 3%;
     left: 55%;
-    top: 50%;
-
-    font-family: Karla;
+    top: 60%;
+    font-family: rubik;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -57,22 +54,21 @@
     color: #857E7E;
     opacity: 0.8;
 }
-.body1subscribe{
+.body1-subscribe{
     position: absolute;
     width: 12%;
     height: 7%;
-    left: 20%;
-    top: 85%;
+    left: 18%;
+    top: 90%;
     text-align: center;
     margin: auto auto;
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
-    line-height: 38px;
+    line-height: 60px;
     color: #000000;
-    text-align: center
-;
+    text-align: center;
     background: #F7CA02;
     border-radius: 15px;
 
@@ -91,13 +87,12 @@
 .articles{
     position: absolute;
     color: #F1F1F1;
-    top: 7%;
-    left: 5%;
-    font-size: 350%;
+    top: 15%;
+    left: 10%;
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
-    font-size: 44px;
+    font-size: 50px;
     line-height: 52px;
 
 }
@@ -105,35 +100,33 @@
     position: absolute;
     width: 10%;
     height: 7%;
-    font: bold;
-    top: 70%;
-    left: 5%;
+    top: 80%;
+    left: 10%;
     cursor: pointer;
-    background: #F7CA02;;
+    background: #F7CA02;
     font-family: Rubik;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 100%;
     line-height: 28px;
     color: #0B0B0B;
-    position:relative;
+    border-radius: 20px;
 }
 .twoarticles{
     display: flex;
-    
 }
 .article1{
     position: absolute;
-    width: 357px;
-    height: 392px;
+    width: 410px;
+    height: 510px;
     top: 30%;
-    left: 30%;
+    left: 35%;
     background:#597ECD;
 }
 .article2{
     position: absolute;
-    width: 357px;
-    height: 392px;
+    width: 410px;
+    height: 510px;
     top: 30%;
     left: 60%;
     background: #C85CFA;
@@ -141,10 +134,11 @@
 .arrow{
     position: absolute;
     width: 40%;
-    size: 1000%;
+    size: 100%;
     left: 85%;
     top: 90%;
 }
+
 .body3{
     position: absolute;
     width: 100%;
@@ -157,59 +151,52 @@
 .body3logo img{ 
     position: absolute;
     height: 20vh;
-    top: 30%;
+    top: 25%;
     left: 60%;
-    width: 171px;
-    height: 171px;
-    left: 891px;
+    width: 200px;
+    height: 200px;
 }
 .aboutus{
     position: absolute;
-    color: #F1F1F1;
-    top: 7%;
-    left: 5%;
+    color:white;
+    top: 10%;
+    left: 10%;
     font-size: 350%;
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
-    font-size: 44px;
+    font-size: 50px;
     line-height: 52px;
 }
 .aboutus-content{
     position: absolute;
-    width: 400px;
+    width: 500px;
     height: 146px;
-    left: 5%;
+    left: 10%;
     top: 30%;
-
-    font-family: Karla;
+    font-family: rubik;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 40px;
-    /* or 222% */
-
-
     color:#FAFAFA;
-
     opacity: 0.8;
 }
 .findbutton1{
     position: absolute;
     width: 10%;
     height: 9%;
-    font: bold;
-    top: 70%;
-    left: 5%;
+    top: 60%;
+    left: 10%;
     cursor: pointer;
-    background: #F7CA02;;
+    background: #F7CA02;
     font-family: Rubik;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 100%;
     line-height: 28px;
     color: #0B0B0B;
-    position:relative;
+    border-radius: 20px;
 }
 .body4{
     position: absolute;
@@ -221,57 +208,48 @@
 }
 .NewspaperArchives{
     position: absolute;
-    color: #F1F1F1;
+    color: white;
     top: 7%;
-    left: 5%;
-    font-size: 350%;
+    left: 10%;
     font-family: Rubik;
-font-style: normal;
-font-weight: 500;
-font-size: 44px;
-line-height: 52px;
-
-color: #FFFFFF;
-
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 52px;
 }
 .NewspaperArchives-content{
     position: absolute;
-    width: 400px;
+    width: 500px;
     height: 146px;
-    left: 5%;
+    left: 10%;
     top: 30%;
-
-    font-family: Karla;
+    font-family: rubik;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 40px;
-    /* or 222% */
-
-
     color:#FAFAFA;
-
     opacity: 0.8;
 }
 .number01{
     position: absolute;
     width: 57px;
     height: 40px;
-    left: 147px;
+    left: 15%;
     top: 60%;
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
     font-size: 50px;
     line-height: 40px;
-    color: #FFFFFF;
+    color: white;
 }
 .firstedition{
-    top: 75%;
+    top: 80%;
     position: absolute;
     width: 200px;
     height: 40px;
-    left: 5%;
+    left: 10%;
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
@@ -284,58 +262,50 @@ color: #FFFFFF;
     left: 0%;
     top: 350%;
     width: 100%;
-    height: 80%;
+    height: 100%;
     background-color: #0E0E0E;
+    padding-top: 200px;
 }
 .Spotlight{
     position: absolute;
-    color: #F1F1F1;
-    top: 9%;
-    left: 5%;
-    font-size: 350%;
+    color: white;
+    top: 20%;
+    left: 10%;
     font-family: Rubik;
-font-style: normal;
-font-weight: 500;
-font-size: 44px;
-line-height: 52px;
-
-color: #FFFFFF;
-}
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 52px;
+    }
 .Spotlight-content{
     position: absolute;
-    width: 400px;
+    width: 500px;
     height: 146px;
-    left: 5%;
+    left: 10%;
     top: 30%;
-
-    font-family: Karla;
+    font-family: rubik;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 40px;
-    /* or 222% */
-
-
-    color:#FAFAFA;
-
+    color:white;
     opacity: 0.8;
 }
 .findbutton2{
     position: absolute;
-    width: 10%;
-    height: 9%;
-    font: bold;
-    top: 60%;
-    left: 5%;
+    width: 11%;
+    height: 8%;
+    top: 50%;
+    left: 10%;
     cursor: pointer;
     background: #F7CA02;;
     font-family: Rubik;
     font-style: normal;
-    font-weight: 500;
-    font-size: 100%;
+    font-weight: 800;
+    font-size: 24px;
     line-height: 28px;
     color: #0B0B0B;
-    position:relative;
+    border-radius: 20px;
 }
 .body6{
     position: absolute;
@@ -343,31 +313,29 @@ color: #FFFFFF;
     left: 0%;
     width: 100%;
     height: 80%;
-    background-color:  #0E0E0E;
+    background-color: #0E0E0E;
 }
 .Subscribe{
     position: absolute;
-    color: #F1F1F1;
+    color: white;
     top: 7%;
-    left: 5%;
-    font-size: 350%;
+    left: 10%;
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
-    font-size: 44px;
+    font-size: 50px;
     line-height: 52px;
-    color: #FFFFFF;
 }
 .subscribeimage{
     position: absolute;
-    top: 55%;
-    left: 5%;
+    top: 45%;
+    left: 10%;
 }
 .subscribe-content{
     position: absolute;
-    width: 70%;
+    width: 65%;
     height: 40%;
-    top: 50%;
+    top: 40%;
     right: 0%;
     background: #F7CA02;
     box-shadow: 0px 8px 4px rgba(23, 23, 23, 0.69);
@@ -375,24 +343,28 @@ color: #FFFFFF;
 .newsletter{
     position: absolute;
     left: 10%;
-    top: 10%;
+    top: 20%;
     font-family: Rubik;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 32px;
     line-height: 38px;
     color: #0F0F0F;
-
 }
 .email{
-    position: relative;
-    top: 40%;
+    position: absolute;
+    top: 50%;
     margin-left: 10%;
-    font-family: Karla;
+    font-family: rubik;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 30px;
     color: #0F0F0F;
     opacity: 0.6;
+}
+.arrow2{
+    position: absolute;
+    left: 50%;
+    top: 40%;
 }
