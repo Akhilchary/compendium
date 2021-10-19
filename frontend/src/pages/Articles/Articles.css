@@ -24,7 +24,8 @@ body{
 .skill-row{
     word-spacing: 5px;
     text-align:justify;
-    left: 80%;
+    position: relative;
+
 }
 .img{
     width: 500px;

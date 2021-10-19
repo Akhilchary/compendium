@@ -9,12 +9,10 @@ function Footer(){
         <>
         <div className="footer">
 
-            <div className="soc-div">
-                <p className="soc-p">Social.</p>
-                <img className="linkdin-ic" src={linkedIcon} alt="" />
-                <img className="insta-ic" src={instaIcon} />
-            </div>
-            
+            <p className="soc-p">Social.</p>
+            <img className="linkdin-ic" src={linkedIcon} alt="" />
+            <img className="insta-ic" src={instaIcon} />
+
             <div className="footer-nav">
                 <h3>Navigate</h3>
                 <div className="footNav-content">

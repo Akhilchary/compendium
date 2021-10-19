@@ -26,7 +26,7 @@ function Article(){
             <h1 className="date">{ art.dateAdded }</h1>
             <div className="skill-row">
                 <img className="img" src={art.img} alt="" srcset="" />
-                <div></div>
+                
                 <h1 className="content">{ art.content }</h1>
             </div>
             
