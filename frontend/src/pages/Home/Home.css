@@ -1,4 +1,9 @@
-
+.longarrow{
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    width: 50%;
+}
 .social{
     position: absolute;
     width: 5%;
@@ -243,6 +248,7 @@
     font-size: 50px;
     line-height: 40px;
     color: white;
+    
 }
 .firstedition{
     top: 80%;
@@ -367,4 +373,95 @@
     position: absolute;
     left: 50%;
     top: 40%;
+}
+.spotlight-img{
+    width: 550px;
+    height: 600px;
+    background-color: #0F0F0F;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+.spotlight-img1{
+    width: 234px;
+    height: 287px;
+    background-color: #FF007F;
+    position: absolute;
+    left: 20%;
+    bottom: 60%;
+    z-index: 1;
+    box-shadow: 20px 20px 20px #0F0F0F;
+}
+.spotlight-img2{
+    width: 215px;
+    height: 264px;
+    background-color: #EE82EE;
+    position: absolute;
+    left: 23%;
+    top: 41%;
+    z-index: 0;
+}
+
+.spotlight-img3{
+    width: 235px;
+    height: 267px;
+    background-color: #98ffcc;
+    position: absolute;
+    top: 10%;
+    left: 61.8%;
+    z-index: 0;
+}
+.vector-18{
+    width: 550px;
+    height: 580px;
+}
+.ellipse{
+    position: absolute;
+    top: 67%;
+    right: 13%;
+}
+.vector-23{
+    position: absolute;
+    top: 69%;
+    right: 16%;
+}
+.eye{
+    position: absolute;
+    top: 81%;
+    left: 25%;
+}
+.download{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+.line{
+    position: absolute;
+    top: 61%;
+    left: 25%;
+}
+.circle1{
+    position: absolute;
+    top: 62%;
+    left: 25%;
+}
+.circle2{
+    position: absolute;
+    top: 62%;
+    left: 35%;
+}
+.circle3{
+    position: absolute;
+    top: 62%;
+    left: 45%;
+}
+.ellipse1{
+    position: absolute;
+    top: 60%;
+    left: 52%;
+}
+.vector{
+    position: absolute;
+    top: 61.5%;
+    left: 53%;
 }
