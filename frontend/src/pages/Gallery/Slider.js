@@ -4,6 +4,8 @@ import BtnSlider from './BtnSlider'
 import dataSlider from './dataSlider'
 import Header from "../../components/Topbar/Topbar";
 import Footer from "../../components/Footer/Footer";
+import linkedIcon from "../../images/linkdin-icon.svg";
+import instaIcon from "../../images/insta-icon.svg";
 
 export default function Slider() {
 
@@ -33,35 +35,39 @@ export default function Slider() {
 
     return (
         <>
-        <div className="Heading">
-            <h1>Gallery.</h1>
-        </div>
-        <div className="container-slider">
-            {dataSlider.map((obj, index) => {
-                return (
-                    <div
-                    key={obj.id}
-                    className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
-                    >
-                        <img 
-                        src={process.env.PUBLIC_URL + `/images/img${index + 1}.jpg`} 
-                        />
-                    </div>
-                )
-            })}
-            <BtnSlider moveSlide={nextSlide} direction={"next"} />
-            <BtnSlider moveSlide={prevSlide} direction={"prev"}/>
+        
+        <div className="gallery">
+            <div className="Heading">
+                <h1>Gallery.</h1>
+            </div>
+            <div className="container-slider">
+                {dataSlider.map((obj, index) => {
+                    return (
+                        <div
+                        key={obj.id}
+                        className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
+                        >
+                            <img 
+                            src={process.env.PUBLIC_URL + `/images/img${index + 1}.jpg`} 
+                            />
+                        </div>
+                    )
+                })}
+                <BtnSlider moveSlide={nextSlide} direction={"next"} />
+                <BtnSlider moveSlide={prevSlide} direction={"prev"}/>
 
+            </div>
+            <div className="container-dots">
+                    {Array.from({length: 5}).map((item, index) => (
+                        <div 
+                        onClick={() => moveDot(index + 1)}
+                        className={slideIndex === index + 1 ? "dot active" : "dot"}
+                        ></div>
+                    ))}
+            </div>
         </div>
-        <div className="container-dots">
-                {Array.from({length: 5}).map((item, index) => (
-                    <div 
-                    onClick={() => moveDot(index + 1)}
-                    className={slideIndex === index + 1 ? "dot active" : "dot"}
-                    ></div>
-                ))}
-        </div>
-        <Footer />
+
+        
       </>
     )
 }
