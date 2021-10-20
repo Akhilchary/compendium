@@ -5,6 +5,7 @@ import {
   Route
 }from "react-router-dom";
 import Aboutus from "./pages/Aboutus/Aboutus";
+import Placements from "./pages/Placements/placements";
 import Slider from "./pages/Gallery/Slider";
 import Home from "./pages/Home/Home";
 import ArticleBlock from "./pages/ArticlesList/ArticleBlock";
@@ -24,6 +25,10 @@ function App(){
           
             <Route path='/aboutus'>
              <Aboutus />
+            </Route>
+
+            <Route path='/placements'>
+             <Placements />
             </Route>
 
             <Route path='/gallery'>
