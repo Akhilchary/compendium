@@ -94,6 +94,7 @@ function Homebody(){
                 <img className="ellipse" src={ellipse} alt="" />
                 <img className="vector-23" src={vector23} alt="" />
             </div>
+            
         </div>
 
 

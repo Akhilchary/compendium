@@ -1,0 +1,149 @@
+.body1{
+    position: absolute;
+    background-color: #0E0E0E;
+    width: 100%;
+    height: 100%;
+}
+.about{
+    position: absolute;
+    color: #F1F1F1;
+    top: 15%;
+    left: 10%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 52px;
+}
+.logo{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.about-text1{
+    position: relative;
+    width: 70%;
+    height: 64px;
+    left: 25%;
+    top: 35%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.about-text2{
+    position: relative;
+    width: 844px;
+    height: 160px;
+    left: 10%;
+    top: 60%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.body2{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: #0E0E0E;
+    
+}
+.team{
+    position: absolute;
+    left: 45%;
+    margin-top: 10%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.Founder{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background-color: #F7CA02;
+}
+.Creativedirector{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+.president{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+}
+.Managingdirector{
+    position: absolute;
+    top: 15%;
+    right: 20%;
+}
+.body3{
+    position: absolute;
+    
+    
+}
+.body3{
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    height: 15%;
+    background-color: #0E0E0E;
+}
+.lines{
+    position: absolute;
+    top: 35%;
+    margin-left: 29%;
+    position: absolute;
+    width: 726px;
+    height: 245.15px;
+}
+
+.name{
+    color: #E8E833;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+.foundertextarea{
+    position: relative;
+    margin-left: 40%;
+    top: 70%;
+}
+.Foundertext{
+    
+    color: #FFFFFF;
+}
+.creativedirectortextarea{
+    position: relative;
+    top: 65%;
+    margin-left: 15%;
+}
+.CreativeDirectortext{
+
+}
+.presidenttextarea{
+    position: relative;
+    top: 40%;
+    margin-left: 40%;
+}
+.Presidenttext{
+
+}
+.managingdirectortextarea{
+    position: relative;
+    margin-left: 64%;
+    top: 40%;
+}
+.ManagingDirectortext{
+    
+}
