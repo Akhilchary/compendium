@@ -33,9 +33,9 @@ body{
 .articlediv-title{
     margin-left: 15px;
     position: relative;
-    left: 36vw;
+    left: 30vw;
     bottom: 63vh;
-    width: fit-content;
+    width: 50vw;
 }
 
 .articlediv-content{
@@ -43,7 +43,7 @@ body{
     color: white;
     width: 44vw;
     height: 18vh;
-    left: 36vw;
+    left: 31vw;
     bottom: 60vh;
 
     font-family: Karla;
@@ -60,7 +60,7 @@ body{
     position: relative;
     width: 13vw;
     height: 5vh;
-    left: 38vw;
+    left: 34vw;
     bottom: 55vh;
 
     font-family: Karla;
@@ -79,7 +79,7 @@ body{
     position: relative;
     width: 14vw;
     height: 10vh;
-    left: 36vw;
+    left: 31vw;
     bottom: 47vh;
 
     background: #F7CA02;
