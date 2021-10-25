@@ -6,6 +6,7 @@ import Header from "../../components/Topbar/Topbar";
 import Footer from "../../components/Footer/Footer";
 import linkedIcon from "../../images/linkdin-icon.svg";
 import instaIcon from "../../images/insta-icon.svg";
+import Topbar from '../../components/Topbar/Topbar';
 
 export default function Slider() {
 
@@ -35,6 +36,7 @@ export default function Slider() {
 
     return (
         <>
+        <Topbar />
         
         <div className="gallery">
             <div className="Heading">
@@ -67,7 +69,7 @@ export default function Slider() {
             </div>
         </div>
 
-        
+        <Footer />
       </>
     )
 }
