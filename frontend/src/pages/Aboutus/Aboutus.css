@@ -147,3 +147,93 @@
 .ManagingDirectortext{
     
 }
+/* css of separate about us pages */
+.Managingdirectorbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+..Managingdirectorpic{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.Presidentbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Presidentpic{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.Founderbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Founderpic{
+    position: absolute;
+    background-color: #F7CA02;
+    top: 20%;
+    left: 10%;
+}
+.Creativedirectorbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Creativedirectorpic,.Founderpic,.managingdirectorpic,.Presidentpic{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.teammembersname{
+    position: absolute;
+    width: 40%;
+    left: 32%;
+    top: 20%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #E8E833;
+}
+.foundername,.managingdirectorname,.presidentname,.creativedirector{
+    position: absolute;
+    width: 40%;
+    left: 32%;
+    top: 30%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.creativedirectordescription,.founderdescription,.presidentdescription,.managingdirectordescription{
+    position: absolute;
+    width: 50%;
+    left: 32%;
+    top: 40%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: justify;
+    color: #CCCCCC;
+}
+.Cross{
+    position: absolute;
+    width: 34px;
+    left: 80%;
+    top: 20%;
+    
+}

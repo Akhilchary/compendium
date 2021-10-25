@@ -12,7 +12,10 @@ import ArticleBlock from "./pages/ArticlesList/ArticleBlock";
 import Article from "./pages/Articles/Article";
 import AddArticle from "./pages/write/AddArticle";
 import Login from "./pages/login/Login";
-
+import President from "./pages/Aboutus/president";
+import Founder from "./pages/Aboutus/founder";
+import Creativedirector from "./pages/Aboutus/creativedirector";
+import Managingdirector from "./pages/Aboutus/managingdirector";
 function App(){
     return (
       
@@ -29,6 +32,22 @@ function App(){
 
             <Route path='/placements'>
              <Placements />
+            </Route>
+
+            <Route path='/President'>
+             <President />
+            </Route>
+
+            <Route path='/managingdirector'>
+             <Managingdirector />
+            </Route>
+
+            <Route path='/creativedirector'>
+             <Creativedirector />
+            </Route>
+
+            <Route path='/founder'>
+             <Founder />
             </Route>
 
             <Route path='/gallery'>

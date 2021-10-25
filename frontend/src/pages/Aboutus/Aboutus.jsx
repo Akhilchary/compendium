@@ -9,6 +9,7 @@ import President from "../../images/_DSC0251 1.png";
 import Managingdirector from "../../images/_DSC0341 1.png";
 import Line from "../../images/Vector 25.png";
 import Lines from "../../images/Group 71.svg";
+import { Link } from "react-router-dom";
 function Aboutusbody(){
     return (
         <div>
@@ -21,24 +22,24 @@ function Aboutusbody(){
             <div className="body2">
                 <p className="team">The Team</p>
                 <img class="lines" src={Lines} alt="" />
-                <img class="Founder" src={Founder} alt="" />
+                <Link to="/founder"><img class="Founder" src={Founder} alt="" /></Link>
                 <div className="foundertextarea">
                     <p class="Foundertext">Founder</p>
                     <p className="name">Anusha Vajha</p>
                 </div>
             </div>
             <div className="body3">
-                <img class="Creativedirector" src={Creativedirector} alt="" />
+                <Link to="/creativedirector"><img class="Creativedirector" src={Creativedirector} alt="" /></Link>
                 <div className="creativedirectortextarea">
                     <p class="CreativeDirectortext">Creative Director</p>
                     <p className="name">Sharwann Solanki</p>
                 </div>
-                <img class="president" src={President} alt="" />
+                <Link to="/president"><img class="president" src={President} alt="" /></Link>
                 <div className="presidenttextarea">
                     <p class="Presidenttext">President</p>
                     <p className="name">Rahul Sattarapu</p>
                 </div>
-                <img class="Managingdirector" src={Managingdirector} alt="" />
+                <Link to="/managingdirector"><img class="Managingdirector" src={Managingdirector} alt="" /></Link>
                 <div className="managingdirectortextarea">
                     <p class="ManagingDirectortext">Managing Director</p>
                     <p className="name">Sachin Pisipati</p>

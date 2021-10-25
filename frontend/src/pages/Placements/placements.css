@@ -41,6 +41,37 @@
     top: 15%;
     left: 10%;
 }
+.Capgemini{
+    position: relative;
+    width: 16%;
+    left: 0%;
+}
+.Lti{
+    position: relative;
+    width: 16%;
+    left: 5%;
+}
+.Accenture{
+    position: relative;
+    width: 16%;
+    left: 10%;
+}
+.Cognizant{
+    position: relative;
+    width: 16%;
+    left: 15%;
+}
+,
+.TechMahindra{
+    position: relative;
+    width: 16%;
+    margin-left: 42%;
+}
+.Infosys{
+    position: relative;
+    width: 16%;
+    left: 20%;
+}
 .sec2{
     position:absolute;
     background-color: white;
