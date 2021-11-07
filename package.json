@@ -6,7 +6,6 @@
   "scripts": {
     "start": "nodemon index.js",
     "heroku-postbuild": "cd frontend && npm install --only=dev && npm install && npm run build"
-
   },
   "author": "",
   "license": "ISC",
