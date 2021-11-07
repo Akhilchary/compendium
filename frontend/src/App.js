@@ -57,18 +57,19 @@ function App(){
             <Route path='/articleslist' >
               <ArticleBlock />
             </Route>
+            <Route path="/login" >
+               <Login />
+             </Route>
 
             <Route path="/:id" >
                <Article />
             </Route>
 
-             <Route path="/write">
+             {/* <Route path="/write">
                <AddArticle />
-             </Route>
+             </Route> */}
 
-             <Route path="/login" >
-               <Login />
-             </Route>
+             
              
 
           </Switch>
