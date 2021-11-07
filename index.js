@@ -21,7 +21,7 @@ app.use(bodyParser.json({ limit: "50mb", extended: true, parameterLimit: 5000000
 // }));
 
 
-
+const PORT = process.env.PORT || 5000;
 
 dotenv.config();
 
@@ -34,6 +34,6 @@ mongoose.connect(process.env.MONGO_URL,{
 app.use('/api/posts',postRoute);
 app.use('/api/user',userRoute);
 
-app.listen("5000",()=>{
-    console.log("server is running on port 5000");
+app.listen(PORT ,()=>{
+    console.log("server is running on port "+PORT);
 });

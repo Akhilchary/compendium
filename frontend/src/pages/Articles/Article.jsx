@@ -7,7 +7,8 @@ import {useLocation} from "react-router";
 import "./Articles.css";
 function Article(){
     const {pathname}=useLocation();
-    const path=pathname.split('/')[2];
+    const path=pathname;
+    console.log(pathname+" pathname");
     const [art,setArt]=useState([]);
     useEffect(()=>{
         const fetchPost=async()=>{

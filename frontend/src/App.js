@@ -58,7 +58,7 @@ function App(){
               <ArticleBlock />
             </Route>
 
-            <Route path="/article/:id" >
+            <Route path="/:id" >
                <Article />
             </Route>
 

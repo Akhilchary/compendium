@@ -30,7 +30,7 @@ const ArticlesList =({articles}) => {
                     <img className="image" src={article.img} />
 
                     <div className="articlediv-title" >
-                    <Link className="article-title" to={`/article/${article._id}`} >{article.title}</Link>
+                    <Link className="article-title" to={`/${article._id}`} >{article.title}</Link>
                     </div>
                     <div className="articlediv-content">
                         <p>{article.content.slice(0,280)}</p>
@@ -39,7 +39,7 @@ const ArticlesList =({articles}) => {
                         
                         <p>{article.dateAdded}</p>
                     </div>
-                    <Link to={`/article/${article._id}`} ><button className="findoutmore" >Find Out More</button></Link> 
+                    <Link to={`/${article._id}`} ><button className="findoutmore" >Find Out More</button></Link> 
  
                 <div>
 
