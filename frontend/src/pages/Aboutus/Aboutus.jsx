@@ -16,33 +16,33 @@ function Aboutusbody(){
             <div className="body1">
                 <h1 className="about">About.</h1>
                 <img className="logo" src={Logo} alt="" />
-                <p classNameName="about-text1">m ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.Lorem ipsum dolor sit amet,</p>
-                <p classNameName="about-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.sit amet, consectetur adipiscing elit. Aliquam dictum gravida et Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.Lorem ipsum dolor sit amet,</p>
+                <p className="about-text1">m ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.Lorem ipsum dolor sit amet,</p>
+                <p className="about-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.sit amet, consectetur adipiscing elit. Aliquam dictum gravida et Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.Lorem ipsum dolor sit amet,</p>
             </div>
-            <div classNameName="body2">
-                <p classNameName="team">The Team</p>
+            <div className="body2">
+                <p className="team">The Team</p>
                 <img className="lines" src={Lines} alt="" />
                 <Link to="/founder"><img className="Founder" src={Founder} alt="" /></Link>
-                <div classNameName="foundertextarea">
+                <div className="foundertextarea">
                     <p className="Foundertext">Founder</p>
-                    <p classNameName="name">Anusha Vajha</p>
+                    <p className="name">Anusha Vajha</p>
                 </div>
             </div>
-            <div classNameName="body3">
+            <div className="body3">
                 <Link to="/creativedirector"><img className="Creativedirector" src={Creativedirector} alt="" /></Link>
-                <div classNameName="creativedirectortextarea">
+                <div className="creativedirectortextarea">
                     <p className="CreativeDirectortext">Creative Director</p>
-                    <p classNameName="name">Sharwann Solanki</p>
+                    <p className="name">Sharwann Solanki</p>
                 </div>
                 <Link to="/president"><img className="president" src={President} alt="" /></Link>
-                <div classNameName="presidenttextarea">
+                <div className="presidenttextarea">
                     <p className="Presidenttext">President</p>
-                    <p classNameName="name">Rahul Sattarapu</p>
+                    <p className="name">Rahul Sattarapu</p>
                 </div>
                 <Link to="/managingdirector"><img className="Managingdirector" src={Managingdirector} alt="" /></Link>
-                <div classNameName="managingdirectortextarea">
+                <div className="managingdirectortextarea">
                     <p className="ManagingDirectortext">Managing Director</p>
-                    <p classNameName="name">Sachin Pisipati</p>
+                    <p className="name">Sachin Pisipati</p>
                 </div>
             </div>
         </div>
