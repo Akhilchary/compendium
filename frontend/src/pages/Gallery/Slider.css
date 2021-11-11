@@ -1,18 +1,23 @@
 
+.gallery{
+  background-color: #0E0E0E;
+}
 body{
-  background-color: black;
+  background-color: #0E0E0E;
 }
 .Heading{
   color: white;
   font-size: 40px;
   font-family: rubik;
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 70px;
+  /* margin-top: 50px; */
+  position: relative;
+  top: 100px;
 }
 .container-slider {
   max-width: 1040px;
   height: 720px;
-  margin: 100px auto 0;
+  margin: 200px auto 0;
   position: relative;
   overflow: hidden;
   
