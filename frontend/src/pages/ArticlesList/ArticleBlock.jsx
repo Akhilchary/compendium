@@ -4,7 +4,7 @@ import ArticlesList from './ArticlesList';
 import "./ArticleBlock.css";
 import Topbar from '../../components/Topbar/Topbar';
 import Footer from '../../components/Footer/Footer';
-import{useLocation} from "react-router";
+import {useLocation} from "react-router";
 import axios from "axios";
 
 
@@ -12,7 +12,7 @@ const ArticleBlock = () => {
     const [posts,setPosts]=useState([]);
     useEffect(()=>{
         const fetchArts= async ()=>{
-            const res =  await axios.get("/posts");
+            const res =  await axios.get("/api/posts");
             setPosts(res.data);
             console.log(res.data," resdata");
         }

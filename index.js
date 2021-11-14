@@ -4,7 +4,7 @@ const mongoose=require("mongoose");
 const postRoute=require("./routes/posts");
 const userRoute=require("./routes/user");
 var bodyParser = require('body-parser');
-
+const path = require("path");
 const app=express();
 
 // app.use(express.static(path.join(__dirname, 'build')));
@@ -38,6 +38,10 @@ mongoose.connect(process.env.MONGO_URL,{
 
 app.use('/api/posts',postRoute);
 app.use('/api/user',userRoute);
+
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'frontend/build', 'index.html'))
+})
 
 app.listen(PORT ,()=>{
     console.log("server is running on port "+PORT);

@@ -61,9 +61,9 @@ function App(){
                <Login />
              </Route>
 
-            <Route path="/:id" >
+            {/* <Route path="/:id" >
                <Article />
-            </Route>
+            </Route> */}
 
              {/* <Route path="/write">
                <AddArticle />
