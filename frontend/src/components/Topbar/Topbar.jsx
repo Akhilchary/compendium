@@ -14,7 +14,7 @@ function Topbar(){
                 <div className="menu-items">
                     <p><Link to="/">Home </Link> </p>
                     <p><Link to="/aboutus"> About Us</Link> </p>
-                    <p><Link to={"./articleslist"}>Articles </Link> </p>
+                    <p><Link to="/articleslist">Articles </Link> </p>
                     <p><Link to="/gallery">Gallery </Link> </p>
                     <p><Link to="/"> Spotlight</Link> </p>
                     <p><Link to="/placements"> Placements</Link> </p>

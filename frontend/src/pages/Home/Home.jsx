@@ -1,8 +1,8 @@
 import React from "react";
 // import Footer from "../../components/Footer/Footer";
-import Logo from "../../images/logo.png";
+// import Logo from "../../images/logo.png";
 import Header from "../../components/Topbar/Topbar";
-import Footer from "../../components/Footer/Footer"
+// import Footer from "../../components/Footer/Footer"
 import sitting from "../../images/compw 1.svg";
 import vector from "../../images/Vector 18.svg";
 import vector23 from "../../images/Vector 23.png"
@@ -22,7 +22,7 @@ import rectangle28 from "../../images/Rectangle 28.png";
 import rectangle29 from "../../images/Rectangle 29.png";
 // import logo from "../../images/logo.png";
 import "./Home.css";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Homebody(){
     return(
