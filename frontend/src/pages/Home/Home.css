@@ -470,3 +470,99 @@
     top: 61.5%;
     left: 53%;
 }
+.footer-1{
+    /* width: 100vw;
+    height: 60vh;*/
+    background: #0E0E0E;
+    position: absolute;
+    top: 590%;
+   /* left: 0%;
+    bottom: 0%; */
+    width: 100%;
+    height: 65%;
+    margin-top: 50px;
+    margin-bottom: 50px;  
+}
+
+.soc-p{
+    
+    position: relative;
+    top: 10vh;
+    left: 15vw;
+    font-family: rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFF7;
+    width: fit-content;
+}
+.linkdin-ic{
+    position: absolute;
+    top: 22vh;
+    left: 16vw;
+    width: 30px;
+    height: 30px;
+}
+.insta-ic{
+    position: absolute;
+    top: 22.8vh;
+    left: 21vw;
+    width: 27px;
+    height: 25px;    
+}
+
+.footer-nav{
+    color: white;
+    position: absolute;
+    left: 60vw;
+    top: 6vh;
+}
+
+.footer-nav>h3{
+    font-family: rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    margin-left: 20px;
+    color: #FFFFF7;
+}
+
+.footNav-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footNav-content>p{
+    margin: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+
+    color: #FFFFF7;
+}
+
+.copyright{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFF7;
+    position: absolute;
+    top: 60vh;
+    left: 10vw;
+}
+.email{
+    background-color: #F7CA02;
+}
+
+  form input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #0F0F0F;
+    outline: none;
+  }
