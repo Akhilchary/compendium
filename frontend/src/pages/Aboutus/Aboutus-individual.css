@@ -1,0 +1,326 @@
+.body-1{
+    position: absolute;
+    background-color: #0E0E0E;
+    width: 100%;
+    height: 100%;
+    font-family: rubik;
+    margin-bottom: 100px;
+}
+.about{
+    position: absolute;
+    color: #F1F1F1;
+    top: 15%;
+    left: 10%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 52px;
+}
+.logo{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.about-text1{
+    position: relative;
+    width: 70%;
+    height: 64px;
+    left: 25%;
+    top: 35%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.about-text2{
+    position: relative;
+    width: 844px;
+    height: 160px;
+    left: 10%;
+    top: 60%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.body-2{
+    position: absolute;
+    top: 115%;
+    width: 100%;
+    height: 100%;
+    background: #0E0E0E;
+    
+}
+.team{
+    position: absolute;
+    left: 45%;
+    margin-top: 7%;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.Founder{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background-color: #F7CA02;
+}
+.Creativedirector{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+.president{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+}
+.Managingdirector{
+    position: absolute;
+    top: 15%;
+    right: 20%;
+}
+.body-3{
+    position: absolute;
+    top: 210%;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+    
+}
+.lines{
+    position: absolute;
+    top: 35%;
+    margin-left: 29%;
+    position: absolute;
+    width: 726px;
+    height: 245.15px;
+}
+
+.name{
+    color: #E8E833;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+.foundertextarea{
+    position: relative;
+    margin-left: 40%;
+    top: 75%;
+}
+.Foundertext{
+    
+    color: #FFFFFF;
+}
+.creativedirectortextarea{
+    position: relative;
+    top: 65%;
+    margin-left: 15%;
+}
+.CreativeDirectortext{
+    color: #FFFFFF;
+}
+.presidenttextarea{
+    position: relative;
+    top: 40%;
+    margin-left: 40%;
+}
+.Presidenttext{
+    color: #FFFFFF;
+}
+.managingdirectortextarea{
+    position: relative;
+    margin-left: 64%;
+    top: 40%;
+}
+.ManagingDirectortext{
+    color: #FFFFFF;
+}
+/* css of separate about us pages */
+.Managingdirectorbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Managingdirectorpic{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.Presidentbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Presidentpic{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.Founderbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Founderpic{
+    position: absolute;
+    background-color: #F7CA02;
+    top: 20%;
+    left: 10%;
+}
+.Creativedirectorbody{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E0E0E;
+}
+.Creativedirectorpic,.Founderpic,.managingdirectorpic,.Presidentpic{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.teammembersname{
+    position: absolute;
+    width: 40%;
+    left: 32%;
+    top: 20%;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #E8E833;
+}
+
+.foundername,.managingdirectorname,.presidentname,.creativedirectorname{
+    position: absolute;
+    width: 40%;
+    left: 32%;
+    top: 27%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.creativedirectordescription,.founderdescription,.presidentdescription,.managingdirectordescription{
+    position: absolute;
+    width: 50%;
+    left: 32%;
+    top: 36%;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: justify;
+    color: #CCCCCC;
+}
+.Cross{
+    position: absolute;
+    width: 34px;
+    left: 80%;
+    top: 20%;
+    
+}
+.footer-3{
+    /* width: 100vw;
+    height: 60vh;*/
+    background: #0E0E0E;
+    position: absolute;
+    top: 100%;
+    /*left: 0%;
+    bottom: 0%; */
+    width: 100%;
+    height: 65%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.soc-p{
+    
+    position: relative;
+    top: 10vh;
+    left: 15vw;
+    font-family: rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFF7;
+    width: fit-content;
+}
+.linkdin-ic{
+    position: absolute;
+    top: 22vh;
+    left: 16vw;
+    width: 30px;
+    height: 30px;
+}
+.insta-ic{
+    position: absolute;
+    top: 22.8vh;
+    left: 21vw;
+    width: 27px;
+    height: 25px;    
+}
+
+.footer-nav{
+    color: white;
+    position: absolute;
+    left: 60vw;
+    top: 6vh;
+}
+
+.footer-nav>h3{
+    font-family: rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    margin-left: 20px;
+    color: #FFFFF7;
+}
+
+.footNav-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footNav-content>p{
+    margin: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+
+    color: #FFFFF7;
+}
+
+.copyright{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFF7;
+    position: absolute;
+    top: 60vh;
+    left: 10vw;
+}
