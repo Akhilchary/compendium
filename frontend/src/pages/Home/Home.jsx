@@ -20,6 +20,8 @@ import circle from "../../images/circle.png";
 import rectangle27 from "../../images/Rectangle 27.png";
 import rectangle28 from "../../images/Rectangle 28.png";
 import rectangle29 from "../../images/Rectangle 29.png";
+import linkedIcon from "../../images/linkdin-icon.svg";
+import instaIcon from "../../images/insta-icon.svg";
 // import logo from "../../images/logo.png";
 import "./Home.css";
 import { Link } from 'react-router-dom';
@@ -103,12 +105,39 @@ function Homebody(){
             <img className="subscribeimage" src={subscribe} alt='Un available' />
             <div className="subscribe-content">
                 <h1 className="newsletter">Newsletter Signup</h1>
-                <p className="email">Your Email Address</p>
-                <div  className="arrow2"><img src={arrow} alt="Un available" /></div>
+                <form>
+                    <input class="email" type="text" name="search" placeholder="Your Email Address" />
+                    <div  className="arrow2"><img src={arrow} alt="Un available" /></div>
+                </form>
+                
                 <hr />
             </div>
         </div>
+
+        <div className="footer-1">
+
+        <p className="soc-p">Social.</p>
+        <img className="linkdin-ic" src={linkedIcon} alt="" />
+        <img className="insta-ic" src={instaIcon} />
+
+        <div className="footer-nav">
+            <h3>Navigate</h3>
+            <div className="footNav-content">
+                <p>About us</p>
+                <p>Articles</p>
+                <p>Gallery</p>
+                <p>Spotlight</p>
+                <p>Placements</p>
+            </div>
+        </div>
+
+        <p className="copyright">&copy;2021 TheCompendium  </p>
+
+    </div> 
     </div>);
+
+    
+
 }
 function Home(){
     return(
