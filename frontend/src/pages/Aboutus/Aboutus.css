@@ -1,8 +1,10 @@
-.body1{
+.body-1{
     position: absolute;
     background-color: #0E0E0E;
     width: 100%;
     height: 100%;
+    font-family: rubik;
+    margin-bottom: 100px;
 }
 .about{
     position: absolute;
@@ -46,17 +48,19 @@
     line-height: 40px;
     color: #FFFFFF;
 }
-.body2{
+.body-2{
     position: absolute;
+    top: 115%;
     width: 100%;
-    height: 50%;
+    height: 100%;
     background: #0E0E0E;
     
 }
 .team{
     position: absolute;
     left: 45%;
-    margin-top: 10%;
+    margin-top: 7%;
+    
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
@@ -85,17 +89,13 @@
     top: 15%;
     right: 20%;
 }
-.body3{
+.body-3{
     position: absolute;
-    
-    
-}
-.body3{
-    position: absolute;
-    top: 200%;
+    top: 210%;
     width: 100%;
-    height: 15%;
+    height: 100%;
     background-color: #0E0E0E;
+    
 }
 .lines{
     position: absolute;
@@ -117,7 +117,7 @@
 .foundertextarea{
     position: relative;
     margin-left: 40%;
-    top: 70%;
+    top: 75%;
 }
 .Foundertext{
     
@@ -129,7 +129,7 @@
     margin-left: 15%;
 }
 .CreativeDirectortext{
-
+    color: #FFFFFF;
 }
 .presidenttextarea{
     position: relative;
@@ -137,7 +137,7 @@
     margin-left: 40%;
 }
 .Presidenttext{
-
+    color: #FFFFFF;
 }
 .managingdirectortextarea{
     position: relative;
@@ -145,7 +145,7 @@
     top: 40%;
 }
 .ManagingDirectortext{
-    
+    color: #FFFFFF;
 }
 /* css of separate about us pages */
 .Managingdirectorbody{
@@ -154,7 +154,7 @@
     height: 100%;
     background-color: #0E0E0E;
 }
-..Managingdirectorpic{
+.Managingdirectorpic{
     position: absolute;
     top: 20%;
     left: 10%;
@@ -205,11 +205,12 @@
     line-height: 40px;
     color: #E8E833;
 }
-.foundername,.managingdirectorname,.presidentname,.creativedirector{
+
+.foundername,.managingdirectorname,.presidentname,.creativedirectorname{
     position: absolute;
     width: 40%;
     left: 32%;
-    top: 30%;
+    top: 27%;
     font-family: Karla;
     font-style: normal;
     font-weight: bold;
@@ -221,7 +222,7 @@
     position: absolute;
     width: 50%;
     left: 32%;
-    top: 40%;
+    top: 36%;
     font-family: Karla;
     font-style: normal;
     font-weight: bold;
@@ -236,4 +237,90 @@
     left: 80%;
     top: 20%;
     
+}
+.footer-2{
+    /* width: 100vw;
+    height: 60vh;*/
+    background: #0E0E0E;
+    position: absolute;
+    top: 300%;
+    /*left: 0%;
+    bottom: 0%; */
+    width: 100%;
+    height: 65%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.soc-p{
+    
+    position: relative;
+    top: 10vh;
+    left: 15vw;
+    font-family: rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFF7;
+    width: fit-content;
+}
+.linkdin-ic{
+    position: absolute;
+    top: 22vh;
+    left: 16vw;
+    width: 30px;
+    height: 30px;
+}
+.insta-ic{
+    position: absolute;
+    top: 22.8vh;
+    left: 21vw;
+    width: 27px;
+    height: 25px;    
+}
+
+.footer-nav{
+    color: white;
+    position: absolute;
+    left: 60vw;
+    top: 6vh;
+}
+
+.footer-nav>h3{
+    font-family: rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    margin-left: 20px;
+    color: #FFFFF7;
+}
+
+.footNav-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footNav-content>p{
+    margin: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+
+    color: #FFFFF7;
+}
+
+.copyright{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFF7;
+    position: absolute;
+    top: 60vh;
+    left: 10vw;
 }
