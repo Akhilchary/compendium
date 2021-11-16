@@ -9,17 +9,20 @@ import President from "../../images/_DSC0251 1.png";
 import Managingdirector from "../../images/_DSC0341 1.png";
 import Line from "../../images/Vector 25.png";
 import Lines from "../../images/Group 71.svg";
+import linkedIcon from "../../images/linkdin-icon.svg";
+import instaIcon from "../../images/insta-icon.svg";
 import { Link } from "react-router-dom";
 function Aboutusbody(){
     return (
         <div>
-            <div class="body1">
+            <div class="body-1">
                 <h1 class="about">About.</h1>
                 <img class="logo" src={Logo} alt="" />
                 <p className="about-text1">m ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.Lorem ipsum dolor sit amet,</p>
                 <p className="about-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.sit amet, consectetur adipiscing elit. Aliquam dictum gravida et Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.Lorem ipsum dolor sit amet,</p>
             </div>
-            <div className="body2">
+
+            <div className="body-2">
                 <p className="team">The Team</p>
                 <img class="lines" src={Lines} alt="" />
                 <Link to="/founder"><img class="Founder" src={Founder} alt="" /></Link>
@@ -28,7 +31,8 @@ function Aboutusbody(){
                     <p className="name">Anusha Vajha</p>
                 </div>
             </div>
-            <div className="body3">
+
+            <div className="body-3">
                 <Link to="/creativedirector"><img class="Creativedirector" src={Creativedirector} alt="" /></Link>
                 <div className="creativedirectortextarea">
                     <p class="CreativeDirectortext">Creative Director</p>
@@ -45,6 +49,25 @@ function Aboutusbody(){
                     <p className="name">Sachin Pisipati</p>
                 </div>
             </div>
+
+            <div className="footer-2">
+
+                <p className="soc-p">Social.</p>
+                <img className="linkdin-ic" src={linkedIcon} alt="" />
+                <img className="insta-ic" src={instaIcon} />
+
+                <div className="footer-nav">
+                    <h3>Navigate</h3>
+                    <div className="footNav-content">
+                        <p>About us</p>
+                        <p>Articles</p>
+                        <p>Gallery</p>
+                        <p>Spotlight</p>
+                        <p>Placements</p>
+                    </div>
+                </div>
+                <p className="copyright">&copy;2021 TheCompendium  </p>
+            </div> 
         </div>
     );
 }
