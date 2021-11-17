@@ -7,6 +7,7 @@ import "./Topbar.css";
 function Topbar(){
     return(
         <>
+        <div>
             <div className="nav-bar">
                 <div className="name-comp">
                     <h2 className="name">The Compendium</h2>
@@ -18,13 +19,21 @@ function Topbar(){
                     <p><Link to="/gallery">Gallery </Link> </p>
                     <p><Link to="/"> Spotlight</Link> </p>
                     <p><Link to="/placements"> Placements</Link> </p>
+                    
+                
 
                     
                     {/* <img className="search-icon" src={searchIcon} alt="" /> */}
                 </div>
+            </div>    
+
+               
+
             </div>
         </>
 
     );
 }
 export default Topbar;
+
+
