@@ -1,7 +1,9 @@
+
 .nav-bar{
     background-color: #F7CA02;
     height: 150px;
     width: 100%;
+    
 }
 .name{
     font-family: rubik;
@@ -32,14 +34,8 @@
     font-size: 18px;
     line-height: 21px;
     text-decoration: none;
-
-color: #000000;
+    color: #000000;
 }
 .search-icon{
     width: 25px;
-    margin-left: 20px;
-}
-a{
-    text-decoration: none!important;
-    color: #000000;
-}
+    margin-left: 20px;}
