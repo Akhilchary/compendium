@@ -1,6 +1,9 @@
 
+.gallery{
+  background-color: #0E0E0E;
+}
 body{
-  background-color: black;
+  background-color: #0E0E0E;
 }
 .Heading{
   color: black;

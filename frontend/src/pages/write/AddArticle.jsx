@@ -14,7 +14,7 @@ const AddArticle = () => {
         
         const send=async()=>{
            //console.log("imagsdsd",img);
-            const res=await axios.post("/posts",{
+            const res=await axios.post("/api/posts",{
                 "title":title,
                 "content":con,
                 "writtenBy":wb,

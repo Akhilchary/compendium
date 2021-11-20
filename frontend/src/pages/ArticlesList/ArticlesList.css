@@ -85,3 +85,45 @@ body{
     background: #F7CA02;
    
 }
+
+
+@media only screen and (max-width: 480px) {
+    .findoutmore{
+        position: relative;
+        width: 25vw;
+        height: 5vh;
+        font-size:11px;
+    }
+
+    .image{
+        width: 20vw;
+        height: 25vh;
+    }
+    .article-block{
+        height: 25vh;
+        width: 70vw;
+    }
+    .articlediv-content{
+        visibility: hidden;
+       
+
+    }
+    .articlediv-date{
+        visibility: hidden;
+    }
+    .articlediv-title{
+        position: relative;
+        bottom: 25vh;
+        left: 10vh;
+        width: 40vw;
+        margin-top: 10px;
+    }
+    .article-title{
+        font-size: 15px;
+        line-height: 1vh;
+    }
+
+
+
+  }
+

@@ -24,10 +24,10 @@ function Aboutusbody(){
 
             <div className="body-2">
                 <p className="team">The Team</p>
-                <img class="lines" src={Lines} alt="" />
-                <Link to="/founder"><img class="Founder" src={Founder} alt="" /></Link>
+                <img className="lines" src={Lines} alt="" />
+                <Link to="/founder"><img className="Founder" src={Founder} alt="" /></Link>
                 <div className="foundertextarea">
-                    <p class="Foundertext">Founder</p>
+                    <p className="Foundertext">Founder</p>
                     <p className="name">Anusha Vajha</p>
                 </div>
             </div>
@@ -35,17 +35,17 @@ function Aboutusbody(){
             <div className="body-3">
                 <Link to="/creativedirector"><img class="Creativedirector" src={Creativedirector} alt="" /></Link>
                 <div className="creativedirectortextarea">
-                    <p class="CreativeDirectortext">Creative Director</p>
+                    <p className="CreativeDirectortext">Creative Director</p>
                     <p className="name">Sharwann Solanki</p>
                 </div>
-                <Link to="/president"><img class="president" src={President} alt="" /></Link>
+                <Link to="/president"><img className="president" src={President} alt="" /></Link>
                 <div className="presidenttextarea">
-                    <p class="Presidenttext">President</p>
+                    <p className="Presidenttext">President</p>
                     <p className="name">Rahul Sattarapu</p>
                 </div>
-                <Link to="/managingdirector"><img class="Managingdirector" src={Managingdirector} alt="" /></Link>
+                <Link to="/managingdirector"><img className="Managingdirector" src={Managingdirector} alt="" /></Link>
                 <div className="managingdirectortextarea">
-                    <p class="ManagingDirectortext">Managing Director</p>
+                    <p className="ManagingDirectortext">Managing Director</p>
                     <p className="name">Sachin Pisipati</p>
                 </div>
             </div>

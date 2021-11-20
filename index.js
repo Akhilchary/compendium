@@ -4,8 +4,13 @@ const mongoose=require("mongoose");
 const postRoute=require("./routes/posts");
 const userRoute=require("./routes/user");
 var bodyParser = require('body-parser');
-
+const path = require("path");
 const app=express();
+
+// app.use(express.static(path.join(__dirname, 'build')));
+
+app.use(express.static(path.join(__dirname, 'frontend/build')));
+
 
 // app.use(express.json({limit: '50mb'}));
 // app.use(express.urlencoded({limit: '50mb', extended: true, parameterLimit: 50000000000000000000000}));
@@ -33,6 +38,10 @@ mongoose.connect(process.env.MONGO_URL,{
 
 app.use('/api/posts',postRoute);
 app.use('/api/user',userRoute);
+
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'frontend/build', 'index.html'))
+})
 
 app.listen(PORT ,()=>{
     console.log("server is running on port "+PORT);

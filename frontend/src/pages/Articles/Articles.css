@@ -1,5 +1,4 @@
 body{
-    background-color: white;
     font-family: rubik;
 }
 .con{
@@ -44,6 +43,104 @@ body{
 
 .writtenby{
     color: white;
+    position: relative;
+    /* top: 200px; */
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: justified;
+
+}
+
+
+/*footer css*/
+
+
+
+.article-footer-ar{
+    /* background: #0E0E0E; */
+    width: 100%;
+    height: 65%;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 50px;
+    bottom: 0px;
+    top: 400px;
+}
+
+
+.soc-p-ar{
+    
+    position: relative;
+    top: 10vh;
+    left: 15vw;
+    font-family: rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFF7;
+    width: fit-content;
+}
+.linkdin-ic-ar{
     position: absolute;
-    bottom: 100px;
-}    
+    top: 22vh;
+    left: 16vw;
+    width: 30px;
+    height: 30px;
+}
+.insta-ic-ar{
+    position: absolute;
+    top: 22.8vh;
+    left: 21vw;
+    width: 27px;
+    height: 25px;    
+}
+
+.footer-nav-ar{
+    color: white;
+    position: absolute;
+    left: 60vw;
+    top: 6vh;
+}
+
+.footer-nav-ar>h3{
+    font-family: rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    margin-left: 20px;
+    color: #FFFFF7;
+}
+
+.footNav-content-ar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footNav-content-ar>p{
+    margin: 20px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+
+    color: #FFFFF7;
+}
+
+.copyright-ar{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFF7;
+    position: absolute;
+    top: 60vh;
+    left: 10vw;
+}
