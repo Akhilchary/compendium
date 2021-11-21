@@ -16,7 +16,13 @@ import President from "./pages/Aboutus/president";
 import Founder from "./pages/Aboutus/founder";
 import Creativedirector from "./pages/Aboutus/creativedirector";
 import Managingdirector from "./pages/Aboutus/managingdirector";
+
+
+
 function App(){
+  let md5=require("md5");
+const key=md5("compendium");
+//console.log(key);
     return (
       
         <Router>
@@ -57,8 +63,9 @@ function App(){
             <Route path='/articleslist' >
               <ArticleBlock />
             </Route>
-            <Route path="/login" >
-               <Login />
+
+            <Route path={`/login/bc31fc693c24f4aa0bf13dcf0fbfb1e8`} >
+              <Login />
              </Route>
 
             <Route path="/:id" >
@@ -68,9 +75,6 @@ function App(){
              {/* <Route path="/write">
                <AddArticle />
              </Route> */}
-
-             
-             
 
           </Switch>
         </Router>
