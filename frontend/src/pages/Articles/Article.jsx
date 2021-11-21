@@ -18,9 +18,10 @@ function Article(){
   
     useEffect(()=>{
         const fetchPost=async()=>{
-            const res=await axios.get("/posts/"+path);
+            const res=await axios.get("/api/posts/"+path);
+            
             setArt(res.data);
-            console.log(art,"jlsfsasdf",res.data.content.length);
+            console.log(art,"length",res.data.content.length);
             if(res.data.content.length !==0){
                 const len=res.data.content.length;
               
