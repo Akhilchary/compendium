@@ -21,9 +21,8 @@ function Article(){
             const res=await axios.get("/api/posts/"+path);
             
             setArt(res.data);
-            console.log(art,"jlsfsasdf",res.data);
-            console.log(art,"content",res.data.content);
-            if(art.content.length !==0){
+            console.log(art,"length",res.data.content.length);
+            if(res.data.content.length !==0){
                 const len=res.data.content.length;
               
                 setSty({top:len/3+'px'})
