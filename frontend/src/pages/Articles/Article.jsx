@@ -20,8 +20,8 @@ function Article(){
         const fetchPost=async()=>{
             const res=await axios.get("/posts/"+path);
             setArt(res.data);
-            console.log(art,"jlsfsasdf",res.data.content.length);
-            if(res.data.content.length !==0){
+//             console.log(art,"jlsfsasdf",res.data.content.length);
+            if(art.content.length !==0){
                 const len=res.data.content.length;
               
                 setSty({top:len/3+'px'})
