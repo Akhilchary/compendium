@@ -22,6 +22,7 @@ import rectangle28 from "../../images/Rectangle 28.png";
 import rectangle29 from "../../images/Rectangle 29.png";
 import linkedIcon from "../../images/linkdin-icon.svg";
 import instaIcon from "../../images/insta-icon.svg";
+import forestfire from "../../images/forestfire.jpg";
 // import logo from "../../images/logo.png";
 import "./Home.css";
 // import { Link } from 'react-router-dom';
@@ -48,7 +49,9 @@ function Homebody(){
             <button className="findbutton" type="button">Find Out More</button>
             <div className="twoarticles">
                 <div className="article1">
+                    <img className="forestfire" src={forestfire}  alt="" />
                     <div  className="arrow"><img src={arrow} alt="Un available" /></div>
+                    <h3 className="forestfiretitle">Forest Fires</h3>
                 </div>
                 <div className="article2">
                     <div  className="arrow"><img src={arrow} alt="Un available" /></div>
@@ -116,13 +119,13 @@ function Homebody(){
 
         <div className="footer-1">
 
-        <p className="soc-p">Social.</p>
-        <img className="linkdin-ic" src={linkedIcon} alt="" />
-        <img className="insta-ic" src={instaIcon} />
+        <p className="soc-p1">Social.</p>
+        <img className="linkdin-ic1" src={linkedIcon} alt="" />
+        <img className="insta-ic1" src={instaIcon} />
 
-        <div className="footer-nav">
+        <div className="footer-nav1">
             <h3>Navigate</h3>
-            <div className="footNav-content">
+            <div className="footNav-content1">
                 <p>About us</p>
                 <p>Articles</p>
                 <p>Gallery</p>
