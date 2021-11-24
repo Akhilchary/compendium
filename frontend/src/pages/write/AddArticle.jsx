@@ -63,30 +63,30 @@ const AddArticle = () => {
 
     return (
         <>
-        <div className="form ">
+        <div className="form form12">
            <form onSubmit={HandleClick}>
-            <div className="input-group mb-3 title">
+            <div className="input-group mb-3 title12">
                 <label htmlFor="">title:</label>
                 <textarea className="form-control" type="text" onChange={event=> setTitle(event.target.value) } />
             </div>
 
-            <div className="input-group content">
+            <div className="input-group content12">
                 <label htmlFor="">article content:</label>
                 <textarea className="form-control" type="text" name="content" id="" onChange={event=> setCon(event.target.value) }   />
             </div>
 
-            <div className="input-group wb">
+            <div className="input-group wb12">
                 <label htmlFor="wb">written by:</label>
                 <input className="form-control" type="text" name="wb"  onChange={event=> setWb(event.target.value) } />
             </div>
 
-            <div className="input-group date">
+            <div className="input-group date12">
                 <label htmlFor="date">date:</label>
                 <input className="form-control" type="text" name="date"  onChange={event=> setDate(event.target.value) } />
-            </div>
+            </div><br/>
         
-            <div className="input-group date">
-                <label htmlFor="img">image name:</label>
+            <div className="input-group date12">
+                <label htmlFor="img">image:</label>
                 <input className="form-control" type="file" name="img" id="img" onChange={e=>cImg(e.target.files[0]) } />
             </div>
 

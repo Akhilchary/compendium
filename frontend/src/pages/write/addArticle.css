@@ -1,9 +1,9 @@
-.title{
+.title12{
     width: 50rem;
     height: 5rem;
 }
 
-.title>label{
+.title12>label{
     margin-right: 10px;
     font-size: 20px;
     font-weight: 600;
@@ -15,43 +15,44 @@ input{
     outline-width: 10px solid black;
 }
 
-.form{
+.form12{
     display: block;
     margin-top: 100px;
     margin-left: 100px;
+    color: white;
 }
 
-.content{
+.content12{
     width: 70rem;
     height: 50rem;
 }
 
-.content>label{
+.content12>label{
     margin-right: 10px;
     font-size: 20px;
     font-weight: 600;
     line-height: 20px;
 }
 
-.wb{
+.wb12{
     margin-top: 20px;
     width: 25rem;
 }
 
-.wb>label{
+.wb12>label{
     margin-right: 10px;
     font-size: 20px;
     font-weight: 600;
     line-height: 20px;
 }
 
-.date{
+.date12{
     margin-top: 20px;
     width: 25rem;
     height: 1rem;
 }
 
-.date>label{
+.date12>label{
     margin-right: 10px;
     font-size: 20px;
     font-weight: 600;
@@ -59,7 +60,7 @@ input{
    
 }
 
-.date>label{
+.date12>label{
     height: 1rem;
 }
 
