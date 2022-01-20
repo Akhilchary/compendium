@@ -18,7 +18,7 @@ function Aboutusbody(){
             <div class="body-1">
                 <h1 class="about">About.</h1>
                 <img class="logo" src={Logo} alt="" />
-                <p className="about-text1">m ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.Lorem ipsum dolor sit amet,</p>
+                <p className="about-text1">m ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <p className="about-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.sit amet, consectetur adipiscing elit. Aliquam dictum gravida et Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.Lorem ipsum dolor sit amet,</p>
             </div>
 
@@ -52,13 +52,13 @@ function Aboutusbody(){
 
             <div className="footer-2">
 
-                <p className="soc-p">Social.</p>
-                <img className="linkdin-ic" src={linkedIcon} alt="" />
-                <img className="insta-ic" src={instaIcon} />
+                <p className="soc-p1">Social.</p>
+                <img className="linkdin-ic1" src={linkedIcon} alt="" />
+                <img className="insta-ic1" src={instaIcon} />
 
-                <div className="footer-nav">
+                <div className="footer-nav1">
                     <h3>Navigate</h3>
-                    <div className="footNav-content">
+                    <div className="footNav-content1">
                         <p>About us</p>
                         <p>Articles</p>
                         <p>Gallery</p>

@@ -1,15 +1,9 @@
 
-.gallery{
-  background-color: #0E0E0E;
-}
-body{
-  background-color: #0E0E0E;
-}
 .Heading{
-  color: black;
+  color: white;
   font-size: 40px;
   font-family: rubik;
-  margin-left: 150px;
+  margin-left: 165px;
   margin-top: 50px;
   font-weight: 500;
 }
@@ -21,6 +15,7 @@ body{
   overflow: hidden;
   
 }
+
 @media screen and (max-width: 700px){
   .container-slider {
     margin: 100px 10px 0;
@@ -96,7 +91,7 @@ body{
   height: 60vh;*/
   background: #0E0E0E;
   position: absolute;
-  top: 150%;
+  top: 130%;
   /*left: 0%;
   bottom: 0%; */
   width: 100%;

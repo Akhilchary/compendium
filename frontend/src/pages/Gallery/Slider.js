@@ -67,15 +67,16 @@ export default function Slider() {
                         ></div>
                     ))}
             </div>
+        </div>
             <div className="footer-4">
 
-            <p className="soc-p">Social.</p>
-            <img className="linkdin-ic" src={linkedIcon} alt="" />
-            <img className="insta-ic" src={instaIcon} />
+            <p className="soc-p1">Social.</p>
+            <img className="linkdin-ic1" src={linkedIcon} alt="" />
+            <img className="insta-ic1" src={instaIcon} />
 
-            <div className="footer-nav">
+            <div className="footer-nav1">
                 <h3>Navigate</h3>
-                <div className="footNav-content">
+                <div className="footNav-content1">
                     <p>About us</p>
                     <p>Articles</p>
                     <p>Gallery</p>
@@ -87,7 +88,7 @@ export default function Slider() {
             <p className="copyright">&copy;2021 TheCompendium  </p>
             
             </div> 
-        </div>
+        
       </>
     )
 }
