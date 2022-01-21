@@ -1,6 +1,6 @@
 .navbar {
   background: #F7CA02;
-  height: 80px;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 90px;
 }
 
 .container {
@@ -75,8 +75,12 @@
 .menu-icon {
   display: none;
 }
+.search-icon{
+  width: 20px;
+  padding-bottom: 15px;
 
-@media screen and (max-width: 768px) {
+}
+/* @media screen and (max-width: 768px) {
   .NavbarItems {
     position: relative;
   }
@@ -145,11 +149,7 @@
   }
 
  
-}
-
-
-
-
+} */
 .name-compendium{
   margin-left: 120px;
 }
