@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 import {FaBars,FaTimes} from 'react-icons/fa';
+import searchIcon from '../../images/searchIcon.svg';
 
 import "./Topbar.css";
 // import menuIcon from "../../images/menuIcon.svg";
@@ -17,21 +18,20 @@ function Topbar(){
                 <div className="navbar-logo">
                     <h2 className="name-compendium">The Compendium</h2>
                 </div>
-                <div className="menu-icon" onClick={handleClick}>
+                {/* <div className="menu-icon" onClick={handleClick}>
                     {click ? <FaTimes /> : <FaBars />}
-                </div>
+                </div> */}
                 <div className={click ? 'nav-menu active' : 'nav-menu'}>
                     <p className='nav-item'><Link to="/" className='nav-links'>Home </Link> </p>
                     <p className='nav-item'><Link to="/aboutus" className='nav-links'> About Us</Link> </p>
                     <p className='nav-item'><Link to="/articleslist" className='nav-links'>Articles </Link> </p>
                     <p className='nav-item'><Link to="/gallery" className='nav-links'>Gallery </Link> </p>
-                    <p className='nav-item'><Link to="/" className='nav-links'> Spotlight</Link> </p>
                     <p className='nav-item'><Link to="/placements" className='nav-links'> Placements</Link> </p>
-                    
+                    {/* <p className='nav-item'><Link to="/" className='nav-links'> Spotlight</Link> </p> */}
                 
 
                     
-                    {/* <img className="search-icon" src={searchIcon} alt="" /> */}
+                    <img className="search-icon" src={searchIcon} alt="" />
                 </div>
             </div>    
 
