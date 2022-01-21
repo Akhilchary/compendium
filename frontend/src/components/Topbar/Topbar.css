@@ -64,8 +64,9 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   height: 100%;
+  font-weight: 900;
 }
 
 .fa-bars {
@@ -78,7 +79,7 @@
 .search-icon{
   width: 20px;
   padding-bottom: 15px;
-
+  margin-left: 20px;
 }
 /* @media screen and (max-width: 768px) {
   .NavbarItems {
