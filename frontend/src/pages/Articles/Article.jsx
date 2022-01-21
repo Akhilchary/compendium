@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Topbar/Topbar";
 import {useState,useEffect} from "react";
 import axios from "axios";
@@ -7,6 +6,7 @@ import {useLocation} from "react-router";
 import "./Articles.css";
 import linkedIcon from "../../images/linkdin-icon.svg";
 import instaIcon from "../../images/insta-icon.svg";
+
 
 function Article(){
     const {pathname}=useLocation();
@@ -18,17 +18,14 @@ function Article(){
   
     useEffect(()=>{
         const fetchPost=async()=>{
-            const res=await axios.get("/api/posts/"+path);
+            const res=await axios.get("/posts"+path);
             
             setArt(res.data);
             console.log(art,"length",res.data.content.length);
             if(res.data.content.length !==0){
                 const len=res.data.content.length;
-              
-                setSty({top:len/3+'px'})
-                setStyw({top:len/3-150+'px'})
-
-                
+                // setSty({top:(len/20)+'px'})
+                // setStyw({top:len/65+'px'})
             }
         };
 
@@ -45,10 +42,12 @@ function Article(){
         <>
         <Header />
         <div className="con">
-            <h1 className="title">{ art.title }</h1>
+            <div className="title-div">
+                <h1 className="title">{ art.title }</h1>
+            </div>
             <h1 className="date">{ art.dateAdded }</h1>
             <div className="skill-row">
-                <img className="img" src={art.img} alt="" srcset="" />
+                <img className="img-article" src={art.img} alt="" srcset="" />
                 
                 <h1 className="content">{ art.content }</h1>
                 <h1 className="writtenby" style={styw} >Written by</h1>
@@ -57,6 +56,9 @@ function Article(){
             
         </div>
 
+        <div>
+
+        </div>
 
         <div className="article-footer-ar" style={sty} >
             

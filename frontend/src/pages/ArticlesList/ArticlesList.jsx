@@ -1,26 +1,10 @@
 import React from 'react'
-// import ArticleBlock from './ArticleBlock';
-// import articlesData from '../articlesdata';
 import "./ArticlesList.css";
-//import arrow from "../../images/arrow.svg"
 import {Link} from "react-router-dom";
 
-// const fun=(a)=>{
-//     console.log("funnn");
-//         a.map((ar)=>{
-//             if(ar!=undefined){
-//                 const base64String = btoa(String.fromCharCode(...new Uint8Array(ar.img)));
-//             }
-//         })
-//     }
 
 const ArticlesList =({articles}) => {
     console.log("length ",(articles));
-    // if( (articles).length!=0){
-    //     fun(articles);
-    // }
-    
-    
     return (
         <>
             {articles.map((article,index)=> (
@@ -37,7 +21,7 @@ const ArticlesList =({articles}) => {
                         
                         <p>{article.dateAdded}</p>
                     </div>
-                    <Link to={`/${article._id}`} ><button className="findoutmore" >Find Out More</button></Link> 
+                    <Link to={`/${article._id}`} ><button className="findoutmore" >Read More</button></Link> 
  
                 <div>
 
