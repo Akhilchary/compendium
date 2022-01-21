@@ -40,7 +40,7 @@ function Homebody(){
             <div className="bodyone">
                 <p className="tagline">The News and Publication Society of IARE</p>
                 <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae sed magna malesuada in interdum massa. Odio vel interdum ultrices tellus.</p>
-                <h1 className="body1-subscribe">Subscribe</h1>
+                {/* <h1 className="body1-subscribe">Subscribe</h1> */}
             </div>
         </div>
         
