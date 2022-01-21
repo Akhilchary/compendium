@@ -9,11 +9,11 @@ import "./Topbar.css";
 // import logo from "../../images/logo.png";
 function Topbar(){
     const [click, setClick]= useState(false);
-    const handleClick = () => setClick(!click);
+    // const handleClick = () => setClick(!click);
 
     return(
         <>
-        <nav className="navbar">
+        <nav className="navbar container-fluid">
             <div className="navbar-container container">
                 <div className="navbar-logo">
                     <h2 className="name-compendium">The Compendium</h2>
@@ -28,9 +28,6 @@ function Topbar(){
                     <p className='nav-item'><Link to="/gallery" className='nav-links'>Gallery </Link> </p>
                     <p className='nav-item'><Link to="/placements" className='nav-links'> Placements</Link> </p>
                     {/* <p className='nav-item'><Link to="/" className='nav-links'> Spotlight</Link> </p> */}
-                
-
-                    
                     <img className="search-icon" src={searchIcon} alt="" />
                 </div>
             </div>    

@@ -83,6 +83,20 @@
   padding-bottom: 15px;
   margin-left: 20px;
 }
+.name-compendium{
+  margin-left: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* @media screen and (max-width: 768px) {
   .NavbarItems {
     position: relative;
@@ -153,6 +167,3 @@
 
  
 } */
-.name-compendium{
-  margin-left: 120px;
-}

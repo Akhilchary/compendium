@@ -26,7 +26,7 @@ body{
 }
 
 .skill-row{
-    word-spacing: 5px;
+    word-spacing: 3px;
     text-align:justify;
     position: relative;
 
@@ -53,7 +53,7 @@ body{
     font-family: Rubik;
     font-size: 22px;
     font-style: normal;
-    margin-bottom: 40px;
+    margin-bottom: 16px;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0em;
@@ -157,26 +157,62 @@ body{
 @media only screen and (max-width: 480px) {
 
     .img-article{
-        width: 50px;
-        height: 50px;
-        float: left;
-        margin-right: 150px;
-        margin-bottom: 100px; 
-         
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: -23vw;
+        top: -7vh; 
+        margin-right: 100px;
     }
     .title{
         font-family: Karla;
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 10vw;
         line-height: 40px;
     }
     .title-div{
         position: relative;
-        left: -22vw;
-        top: -20vh;
-        width: 90vw;
+        left: -25vw;
+        top: -10vh;
+        width: 65vw;
+    }
+    .date-div{
+        width: 50vw;
+        position: relative;
+        top: 3vh;
+        left: -25vw;
 
     }
-    
+    .content-div{
+        width: 90vw;
+        position: relative;
+        top: -14vh;
+        left: -35vw;
+        word-spacing: 3px;
+
+    }
+    .writtenby-div{
+        width: 50vw;
+        position: relative;
+        top: -13vh;
+        left: -35vw;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .date{
+        font-size: 5vw;
+    }
+    .article-footer-ar{
+        top: 85px;
+    }
+    .soc-p-ar{
+        left: 5vw;
+    }
+    .linkdin-ic-ar{
+        left: 6vw;
+    }
+
 }

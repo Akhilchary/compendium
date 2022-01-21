@@ -45,13 +45,19 @@ function Article(){
             <div className="title-div">
                 <h1 className="title">{ art.title }</h1>
             </div>
-            <h1 className="date">{ art.dateAdded }</h1>
+            <div className="date-div">
+                <h1 className="date">{ art.dateAdded }</h1>
+            </div>
+            
             <div className="skill-row">
                 <img className="img-article" src={art.img} alt="" srcset="" />
-                
-                <h1 className="content">{ art.content }</h1>
-                <h1 className="writtenby" style={styw} >Written by</h1>
-                <h1 className="writtenby" style={styw} >{ art.writtenBy }</h1>
+                <div className="content-div">
+                    <h1 className="content">{ art.content }</h1>
+                </div>
+                <div className="writtenby-div">
+                    <h1 className="writtenby" style={styw} >Written by</h1>
+                    <h1 className="writtenby" style={styw} >{ art.writtenBy }</h1>
+                </div>
             </div>
             
         </div>
