@@ -93,6 +93,7 @@ body{
         width: 25vw;
         height: 5vh;
         font-size:11px;
+        left: 25vw;
     }
 
     .image{
@@ -121,6 +122,8 @@ body{
     .article-title{
         font-size: 15px;
         line-height: 1vh;
+        position: relative;
+        left: 3vw;
     }
 
 

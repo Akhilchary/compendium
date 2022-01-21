@@ -9,7 +9,7 @@ function Footer(){
         <>
         <div className="footer">
 
-            <p className="soc-p">Social.</p>
+            <p className="soc-p-art">Social.</p>
             <img className="linkdin-ic" src={linkedIcon} alt="" />
             <img className="insta-ic" src={instaIcon} />
 

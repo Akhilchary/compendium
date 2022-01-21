@@ -10,14 +10,19 @@ body{
 }
 .title{
     color: #C55AF6;
-    font-size: 50px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 40px;
 }
 .date{
     color: white;
     font-size: 22px;
     position: relative;
     left: 80%;
-    bottom: 80px;
+    bottom: 12vh;
+    width: fit-content;
 }
 
 .skill-row{
@@ -26,7 +31,7 @@ body{
     position: relative;
 
 }
-.img{
+.img-article{
     width: 500px;
     height: 500px;
     float: left;
@@ -48,6 +53,7 @@ body{
     font-family: Rubik;
     font-size: 22px;
     font-style: normal;
+    margin-bottom: 40px;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0em;
@@ -68,14 +74,14 @@ body{
     position: relative;
     margin-bottom: 50px;
     bottom: 0px;
-    top: 400px;
+    top: 200px;
 }
 
 
 .soc-p-ar{
     
     position: relative;
-    top: 10vh;
+    top: 6vh;
     left: 15vw;
     font-family: rubik;
     font-style: normal;
@@ -143,4 +149,34 @@ body{
     position: absolute;
     top: 60vh;
     left: 10vw;
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+    .img-article{
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin-right: 150px;
+        margin-bottom: 100px; 
+         
+    }
+    .title{
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .title-div{
+        position: relative;
+        left: -22vw;
+        top: -20vh;
+        width: 90vw;
+
+    }
+    
 }
