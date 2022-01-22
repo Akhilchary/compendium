@@ -28,16 +28,11 @@ function Topbar(){
                     <p className='nav-item'><Link to="/gallery" className='nav-links'>Gallery </Link> </p>
                     <p className='nav-item'><Link to="/placements" className='nav-links'> Placements</Link> </p>
                     {/* <p className='nav-item'><Link to="/" className='nav-links'> Spotlight</Link> </p> */}
-                
-
-                    
                     <img className="search-icon" src={searchIcon} alt="" />
                 </div>
             </div>    
-
-               
-
-        </nav>    
+        </nav>
+            
         </>
 
     );
