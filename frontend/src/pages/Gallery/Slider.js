@@ -7,7 +7,7 @@ import Footer from "../../components/Footer/Footer";
 import linkedIcon from "../../images/linkdin-icon.svg";
 import instaIcon from "../../images/insta-icon.svg";
 import Topbar from '../../components/Topbar/Topbar';
-
+import mailIcon from "../../images/mail.png";
 export default function Slider() {
 
     const [slideIndex, setSlideIndex] = useState(1)
@@ -39,8 +39,8 @@ export default function Slider() {
         <Topbar />
         
         <div className="gallery">
-            <div className="Heading">
-                <h1>Gallery.</h1>
+            <div>
+                <h1 className="Heading">Gallery</h1>
             </div>
             <div className="container-slider">
                 {dataSlider.map((obj, index) => {
@@ -55,8 +55,7 @@ export default function Slider() {
                         </div>
                     )
                 })}
-                <BtnSlider moveSlide={nextSlide} direction={"next"} />
-                <BtnSlider moveSlide={prevSlide} direction={"prev"}/>
+                
 
             </div>
             <div className="container-dots">
@@ -65,14 +64,17 @@ export default function Slider() {
                         onClick={() => moveDot(index + 1)}
                         className={slideIndex === index + 1 ? "dot active" : "dot"}
                         ></div>
-                    ))}
+                    ))}  
             </div>
+            <BtnSlider moveSlide={nextSlide} direction={"next"} />
+            <BtnSlider moveSlide={prevSlide} direction={"prev"}/>
         </div>
             <div className="footer-4">
 
             <p className="soc-p1">Social.</p>
             <img className="linkdin-ic1" src={linkedIcon} alt="" />
             <img className="insta-ic1" src={instaIcon} />
+            <img className="mail-ic1" src={mailIcon} />            
 
             <div className="footer-nav1">
                 <h3>Navigate</h3>
