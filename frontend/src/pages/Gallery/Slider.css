@@ -1,11 +1,16 @@
-
+.gallery{
+  background-color: #0E0E0E;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  height: 150%;
+}
 .Heading{
   color: white;
-  font-size: 40px;
   font-family: rubik;
-  margin-left: 165px;
-  margin-top: 50px;
-  font-weight: 500;
+  margin-left: 185px;
+  margin-top: 80px;
+  font-size: 50px;
 }
 .container-slider {
   max-width: 1040px;
@@ -15,7 +20,13 @@
   overflow: hidden;
   
 }
-
+.mail-ic1{
+  position: absolute;
+  top: 36vh;
+  left: 20vw;
+  width: 27px;
+  height: 25px; 
+}
 @media screen and (max-width: 700px){
   .container-slider {
     margin: 100px 10px 0;
@@ -39,8 +50,8 @@
 }
 
 .btn-slide {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background: #f1f1f1;
   border: 1px solid rgba(34, 34, 34, 0.287);
@@ -52,18 +63,18 @@
 }
 
 .btn-slide img {
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height:50px;
   pointer-events: none;
 }
 .prev {
-  top: 50%;
-  left: 20px;
+  top: 85%;
+  left: 40%;
   transform: translateY(-60%);
 }
 .next {
-  top: 50%;
-  right: 20px;
+  top: 85%;
+  right: 40%;
   transform: translateY(-60%);
 }
 
@@ -76,10 +87,10 @@
   display: flex;
 }
 .dot {
-  width: 5px;
-  height: 5px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  border: 3px solid #f1f1f1;
+  border: 2px solid #f1f1f1;
   margin: 0 5px;
   background: #f1f1f1;
 }
@@ -91,7 +102,7 @@
   height: 60vh;*/
   background: #0E0E0E;
   position: absolute;
-  top: 130%;
+  top: 150%;
   /*left: 0%;
   bottom: 0%; */
   width: 100%;
