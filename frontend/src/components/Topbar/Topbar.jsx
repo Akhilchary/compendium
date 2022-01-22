@@ -9,11 +9,11 @@ import "./Topbar.css";
 // import logo from "../../images/logo.png";
 function Topbar(){
     const [click, setClick]= useState(false);
-    const handleClick = () => setClick(!click);
+    // const handleClick = () => setClick(!click);
 
     return(
         <>
-        <nav className="navbar">
+        <nav className="navbar container-fluid">
             <div className="navbar-container container">
                 <div className="navbar-logo">
                     <h2 className="name-compendium">The Compendium</h2>
