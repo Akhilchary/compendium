@@ -14,7 +14,7 @@ const ArticleBlock = () => {
     // setPosts(allPosts);
     useEffect(()=>{
         const fetchArts= async ()=>{
-            const res =  await axios.get("/posts");
+            const res =  await axios.get("/api/posts");
             // localStorage.removeItem("allposts");
             // localStorage.setItem("allposts",JSON.stringify(res.data));
             // const allPosts=JSON.parse(localStorage.getItem("allposts"));
