@@ -8,8 +8,8 @@ import vector from "../../images/Vector 18.svg";
 import vector23 from "../../images/Vector 23.png"
 import ellipse from "../../images/Ellipse 8.png"
 import arrow from "../../images/arrow.svg";
-import instagram from "../../images/insta-icon.svg";
-import linkedin from "../../images/linkdin-icon.svg";
+// import instagram from "../../images/insta-icon.svg";
+// import linkedin from "../../images/linkdin-icon.svg";
 import eye from "../../images/eye.png";
 import download from "../../images/download.png";
 import logo from "../../images/Logo (1) 2.svg";
@@ -22,7 +22,11 @@ import rectangle28 from "../../images/Rectangle 28.png";
 import rectangle29 from "../../images/Rectangle 29.png";
 import linkedIcon from "../../images/linkdin-icon.svg";
 import instaIcon from "../../images/insta-icon.svg";
+import linkedin from "../../images/linkdin-icon-1.png";
+import instagram from "../../images/insta-icon-1.png";
 import forestfire from "../../images/forestfire.jpg";
+import mailIcon from "../../images/mail.png";
+import mail from "../../images/mail1.png";
 // import logo from "../../images/logo.png";
 import "./Home.css";
 // import { Link } from 'react-router-dom';
@@ -36,6 +40,7 @@ function Homebody(){
                 <img className="longarrow" src={longarrow}   alt="" />
                 <img className="linked-in" src={linkedin}   alt="" />
                 <img className="instagram" src={instagram}  alt="" />
+                <img className="mail" src={mail}  alt="" />
             </div>
             <div className="bodyone">
                 <p className="tagline">The News and Publication Society of IARE</p>
@@ -45,8 +50,8 @@ function Homebody(){
         </div>
         
         <div className="body2">
-            <p className="articles">Articles.</p>
-            <button className="findbutton" type="button">Find Out More</button>
+            <p className="articles">Articles</p>
+            <button className="findbutton" type="button">Read More</button>
             <div className="twoarticles">
                 <div className="article1">
                     <img className="forestfire" src={forestfire}  alt="" />
@@ -62,17 +67,17 @@ function Homebody(){
 
         <div className="body3">
             
-            <p className="aboutus" >About Us.</p>
+            <p className="aboutus" >About Us</p>
             <div className="body3logo">
                 <img src={logo} alt="" />
             </div>
             <p className="aboutus-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. convallis diam egestas.Morbi congue sed mattis. Morbi congue sed mattis.</p>
-            <button className="findbutton1" type="button">Find Out More</button>
+            <button className="findbutton1" type="button">Read More</button>
         </div>
 
 
         <div className="body4">
-            <p className="NewspaperArchives" >Newspaper Archives.</p>
+            <p className="NewspaperArchives" >Newspaper Archives</p>
             <p className="NewspaperArchives-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. convallis diam egestas.Morbi congue sed mattis. Morbi congue sed mattis.</p>
             <h1 className="number01">01</h1>
             <img className="line" src={line} alt="" />
@@ -88,9 +93,9 @@ function Homebody(){
 
 
         <div className="body5">
-            <p className="Spotlight" >Spotlight.</p>
+            <p className="Spotlight" >Spotlight</p>
             <p className="Spotlight-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. convallis diam egestas.Morbi congue sed mattis. Morbi congue sed mattis.</p>
-            <button className="findbutton2" type="button">Find Out More</button>
+            <button className="findbutton2" type="button">Read More</button>
             <div className="spotlight-img">
                 <div className="spotlight-img1"><img className="rectangle27" src={rectangle27} alt="" /></div>
                 <div className="spotlight-img2"><img className="rectangle28" src={rectangle28} alt="" /></div>
@@ -104,8 +109,9 @@ function Homebody(){
 
 
         <div className="body6">
-            <p className="Subscribe" >Subscribe.</p>
+            <p className="Subscribe" >Subscribe</p>
             <img className="subscribeimage" src={subscribe} alt='Un available' />
+            <hr  />
             <div className="subscribe-content">
                 <h1 className="newsletter">Newsletter Signup</h1>
                 <form>
@@ -113,15 +119,15 @@ function Homebody(){
                     <div  className="arrow2"><img src={arrow} alt="Un available" /></div>
                 </form>
                 
-                <hr />
             </div>
         </div>
 
         <div className="footer-1">
 
-        <p className="soc-p1">Social.</p>
+        <p className="soc-p1">Social</p>
         <img className="linkdin-ic1" src={linkedIcon} alt="" />
         <img className="insta-ic1" src={instaIcon} />
+        <img className="mail-ic1" src={mailIcon} />
 
         <div className="footer-nav1">
             <h3>Navigate</h3>
