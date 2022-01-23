@@ -12,18 +12,30 @@ import Lines from "../../images/Group 71.svg";
 import linkedIcon from "../../images/linkdin-icon.svg";
 import instaIcon from "../../images/insta-icon.svg";
 import { Link } from "react-router-dom";
+import instagram from "../../images/insta-icon-1.png";
+import linkedin from "../../images/linkdin-icon-1.png";
+import mail from "../../images/mail1.png";
+import longarrow from "../../images/longarrow.png";
+import mailIcon from "../../images/mail.png";
 function Aboutusbody(){
     return (
         <div>
             <div class="body-1">
-                <h1 class="about">About.</h1>
+                <div className="social">
+                    <img className="longarrow" src={longarrow}   alt="" />
+                    <img className="linked-in" src={linkedin}   alt="" />
+                    <img className="instagram" src={instagram}  alt="" />
+                    <img className="mail" src={mail}  alt="" />
+                </div>
+                <h1 class="about">About</h1>
                 <img class="logo" src={Logo} alt="" />
-                <p className="about-text1">m ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p className="about-text1">m ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et</p>
                 <p className="about-text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.sit amet, consectetur adipiscing elit. Aliquam dictum gravida et Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum gravida et donec tellus donec pretium nunc.Lorem ipsum dolor sit amet,</p>
             </div>
 
             <div className="body-2">
                 <p className="team">The Team</p>
+                <hr  class="hr2"/>
                 <img className="lines" src={Lines} alt="" />
                 <Link to="/founder"><img className="Founder" src={Founder} alt="" /></Link>
                 <div className="foundertextarea">
@@ -55,6 +67,7 @@ function Aboutusbody(){
                 <p className="soc-p1">Social.</p>
                 <img className="linkdin-ic1" src={linkedIcon} alt="" />
                 <img className="insta-ic1" src={instaIcon} />
+                <img className="mail-ic1" src={mailIcon} />
 
                 <div className="footer-nav1">
                     <h3>Navigate</h3>
