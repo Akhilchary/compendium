@@ -3,7 +3,6 @@
     background-color: #0E0E0E;
     width: 100%;
     height: 120%;
-    font-family: rubik;
     margin-bottom: 100px;
 }
 .about{
@@ -19,7 +18,7 @@
 }
 .logo{
     position: absolute;
-    top:25%;
+    top: 27%;
     left: 10%;
 }
 .about-text1{
@@ -27,7 +26,7 @@
     width: 70%;
     height: 64px;
     left: 25%;
-    top: 30%;
+    top: 32%;
     font-family: Karla;
     font-style: normal;
     font-weight: bold;
@@ -50,7 +49,7 @@
 }
 .body-2{
     position: absolute;
-    top: 115%;
+    top: 130%;
     width: 100%;
     height: 100%;
     background: #0E0E0E;
@@ -59,14 +58,21 @@
 .team{
     position: absolute;
     left: 45%;
-    margin-top: 7%;
-    
+    margin-top: 4%;
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 47px;
     color: #FFFFFF;
+}
+.hr2{
+    height:5px;
+    color:white;
+    width:35%;
+    position: absolute;
+    top: 15%;
+    left: 33%;
 }
 .Founder{
     position: absolute;
@@ -91,7 +97,7 @@
 }
 .body-3{
     position: absolute;
-    top: 210%;
+    top: 225%;
     width: 100%;
     height: 100%;
     background-color: #0E0E0E;
@@ -101,7 +107,7 @@
     position: absolute;
     top: 35%;
     margin-left: 29%;
-    position: absolute;
+
     width: 726px;
     height: 245.15px;
 }
@@ -120,8 +126,9 @@
     top: 80%;
 }
 .Foundertext{
-    
+    font-size: 25px;
     color: #FFFFFF;
+    margin-top: 5px;
 }
 .creativedirectortextarea{
     position: relative;
@@ -244,7 +251,7 @@
     height: 60vh;*/
     background: #0E0E0E;
     position: absolute;
-    top: 300%;
+    top: 317%;
     /*left: 0%;
     bottom: 0%; */
     width: 100%;
