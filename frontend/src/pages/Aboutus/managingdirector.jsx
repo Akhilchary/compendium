@@ -6,6 +6,7 @@ import Cross from "../../images/Vector 35.png";
 import linkedIcon from "../../images/linkdin-icon.svg";
 import instaIcon from "../../images/insta-icon.svg";
 import { Link } from "react-router-dom";
+import mailIcon from "../../images/mail.png";
 function Managingdirectorbody(){
     return(
         <div>
@@ -21,7 +22,8 @@ function Managingdirectorbody(){
             <p className="soc-p1">Social.</p>
             <img className="linkdin-ic1" src={linkedIcon} alt="" />
             <img className="insta-ic1" src={instaIcon} />
-
+            <img className="mail-ic1" src={mailIcon} />
+            
             <div className="footer-nav1">
                 <h3>Navigate</h3>
                 <div className="footNav-content1">
